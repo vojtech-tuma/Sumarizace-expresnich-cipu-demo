@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Run in this dir V (../.. to summary location)
+#                 V
+#	    ______V_____
+# core/DABG/D_KID_GCRMA/core00.ps/dabg.summary.txt
+
+
+# Copy info and header from the first file
+find ./*/ -name *summary.txt | head -n 1 | xargs egrep '#|probeset_id' > out
+
+# Append data
+find ./*/ -name *summary.txt -exec egrep -v '#|probeset_id' {} \; >> out
+
+mv out summary.txt

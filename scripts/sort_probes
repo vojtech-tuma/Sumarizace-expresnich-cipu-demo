@@ -1,0 +1,21 @@
+head -1 probes.snp > probes.snp.sort						# copy header line to the sorted file
+tail -n +2 probes.snp | sort > probes.snp.noheader.sort				# sort probes.snp by probeset_id
+cat probes.snp.noheader.sort >> probes.snp.sort		
+echo -e 'probeset_id\tPWK_probes\tPWK_sum\tWSB_probes\tWSB_sum\ttotal' > probesets.snp.affected	# create header line for output file
+
+awk 'BEGIN{prev=0;pwksnp=0;pwksum=0;wsbsnp=0;wsbsum=0;total=0; OFS="\t"}		# initialize counters
+    {
+        if ($3 != prev && prev != 0) {						# if probeset id changes, 
+		print prev, pwksnp, pwksum, wsbsnp, wsbsum, total;		# output counters for the previous probeset
+		pwksnp=0; pwksum = 0; wsbsnp=0; wsbsum=0; total=0;		# and reset counters
+		}; 
+	total+=1;
+        if ($4 > 0) {pwksnp++}; 						# check if probe was hit by PWK snp
+        pwksum+=$4;								# and add snp amount
+        if ($5 > 0) {wsbsnp++}; 						# check if probe was hit by WSB snp
+        wsbsum+=$5;								# and add snp amount
+        prev=$3
+    }
+    END{print prev, pwksnp, pwksum, wsbsnp, wsbsum, total}' probes.snp.noheader.sort >> probesets.snp.affected			# append to the output file
+
+rm -f probes.snp.noheader.sort

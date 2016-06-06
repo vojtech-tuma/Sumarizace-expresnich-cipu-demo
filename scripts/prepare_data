@@ -1,0 +1,114 @@
+#!/bin/bash
+
+# $1 = gff folder
+# $2 = vcf file
+# $3 = SNP quality treshold
+
+# example launch:  ./scripts/prepare_data ~/moex/affy/annot/dt/gff/ ~/moex/snp_data/*final*annots.vcf 0
+
+cwd=`pwd`
+out=$cwd/out
+mkdir -p $out
+scripts=$cwd/scripts
+
+###########################
+#### Process GFF files ####
+## IN: 	.gff files 
+# OUT: 	probes [chr, start, end, info]
+
+echo "Reading GFF files"
+pushd $1 > /dev/null			# go to the GFF directory (silently)
+awk '/\tprobe\t/' *.gff | 		# select only probe entries from GFF files
+cut -f 1,4,5,9 | 			# select only relevant columns: seqname, start, end, attribute (columns specified in GFF file format)
+sed "s/^chr//" > $out/probes		# remove the string "chr" at the start of every line (may be MoEx v1.0 specific)
+popd > /dev/null
+
+###################################
+#### Parse attributes from GFF ####
+## IN: 	probes
+# OUT: 	probesets [chrom, start, end, probe_id, probeset_id, sequence]
+#	probeset_exon_transcript [probe_id, probeset_id, exon_cluster_id, transcript_cluster_id]
+
+pushd $out > /dev/null
+[ -f $scripts/parse_probes.py ] && echo "Parsing GFF info" || echo "Script parse_probes.py not found!"
+python $scripts/parse_probes.py		# reads probes file made in previous section and parses attribute info
+
+cat probesets > probesets.tmp		# sort "probesets" by chromosome name (and make it retain first line header)
+head -1 probesets.tmp > probesets
+tail -n +2 probesets.tmp | sort -k 1 -V >> probesets	# NOTE: sort -V GNU only
+rm -rf probesets.tmp
+
+########################
+#### Parse VCF file ####
+## IN: 	.vcf file
+# OUT: 	vcf.snp [CHROM, POS, REF, ALT, PWK, WSB]
+
+echo "Reading VCF file"
+cut -f 1,2,4,5,24,26 $2 | 		# select only relevant columns: chromosome, position, reference base, alternate base, PWK, WSB	
+grep -v ".*0/0.*0/0" |			# select only lines that mark a SNP in either of target genomes (lines that match ".*0/0.*0/0" mark no SNP)	
+grep -v "##" | tr -d "#" > vcf.snp	# remove info lines and comments
+
+####################################
+#### Count SNPs that hit probes ####
+## IN:	probesets
+## 	vcf.snp 
+# OUT:	probes.snp [chrom,probe_id,probeset_id,PWK_SNP,WSB_SNP]
+#	probesets.snp [chrom,probeset_id,PWK_SNP,WSB_SNP]
+#	wsb_snphits [chrom, probe_id, probeset_id, REF, ALT, SNP, QUAL]
+#	pwk_snphits [chrom, probe_id, probeset_id, REF, ALT, SNP, QUAL]
+#	vcf.error [chrom, probe_id, WSB SNP, WSB QUAL, PWK SNP, PWK QUAL, vcf REF, gff probe base, snp in probe, probe sequence]
+
+[ -f $scripts/count_snp.py ] && echo "Counting SNPs" || echo "Script count_snp.py not found!"
+python $scripts/count_snp.py $3 2> skip.log
+
+######################################
+#### Aggregate affected probesets ####
+## IN:	probesets.snp
+##	probes.snp
+# OUT:	probesets.snp.sort [probeset_id, PWK_SNP, WSB_SNP]
+#	probes.snp.sort [chrom, probe_id, probeset_id, PWK_SNP, WSB_SNP]
+#	probesets.snp.affected [probeset_id, PWK_probes, PWK_sum WSB_probes, WSB_sum, total] # *_probes is the number of probes hit by SNP in either genotype, *_sum is the sum of SNPs in hit probes (>= probe count), total is the number of probes in probeset (both hit and not hit)
+
+echo "Aggregating affected probesets"
+head -1 probesets.snp | cut -f 2- > probesets.snp.sort				# copy header line to the sorted file
+tail -n +2 probesets.snp | cut -f 2- | sort >> probesets.snp.sort		# sort probesets.snp by probeset_id, exclude chromosome number (probeset ids are unique across chromosomes anyway)
+
+head -1 probes.snp > probes.snp.sort						# copy header line to the sorted file
+tail -n +2 probes.snp | sort -k 3 -t $'\t' -n > probes.snp.noheader.sort	# sort probes.snp by probeset_id
+cat probes.snp.noheader.sort >> probes.snp.sort		
+echo -e 'probeset_id\tPWK_probes\tPWK_sum\tWSB_probes\tWSB_sum\ttotal' > probesets.snp.affected	# create header line for output file
+
+awk 'BEGIN{prev=0;pwksnp=0;pwksum=0;wsbsnp=0;wsbsum=0;total=0; OFS="\t"}		# initialize counters
+    {
+        if ($3 != prev && prev != 0) {						# if probeset id changes, 
+		print prev, pwksnp, pwksum, wsbsnp, wsbsum, total;		# output counters for the previous probeset
+		pwksnp=0; pwksum = 0; wsbsnp=0; wsbsum=0; total=0;		# and reset counters
+		}; 
+	total+=1;
+        if ($4 > 0) {pwksnp++}; 						# check if probe was hit by PWK snp
+        pwksum+=$4;								# and add snp amount
+        if ($5 > 0) {wsbsnp++}; 						# check if probe was hit by WSB snp
+        wsbsum+=$5;								# and add snp amount
+        prev=$3
+    }
+    END{print prev, pwksnp, pwksum, wsbsnp, wsbsum, total}' probes.snp.noheader.sort >> probesets.snp.affected			# append to the output file
+
+rm -f probes.snp.noheader.sort
+
+###########################################################################################
+#### Create a kill-list (list of probes affected by SNPs to remove from summarization) ####
+## IN:	probes.snp
+# OUT:	probes.kill [probe_id, probeset_id]
+
+echo "creating kill-list"
+awk -v OFS='\t' '{if($4 != 0 || $5 != 0) print $2,$3 }' probes.snp > probes.kill
+
+echo -e "probe_id\tprobeset_id" > empty.kill
+
+popd > /dev/null
+
+echo "DONE"
+
+
+ 
+

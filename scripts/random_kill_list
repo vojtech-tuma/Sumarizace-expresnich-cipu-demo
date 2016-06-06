@@ -1,0 +1,10 @@
+#!/bin/bash
+
+length=`wc -l probes.kill | cut -f 1 -d' '`	# set length to be the same as SNP based kill list
+
+head -1 probes.kill > random.kill		# prepare the header
+
+cut -f 4,5 probesets | 				# get probe_id and probeset_id
+tail -n +2 | 					# cut off the header
+shuf | 						# scramble the file 
+head -n $length >> random.kill			# get only the desired amount of data

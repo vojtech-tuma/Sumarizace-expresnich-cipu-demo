@@ -1,0 +1,1000 @@
+##gff-version 2
+##date Wed Mar 12 12:47:35 PDT 2008
+##type DNA
+##chip-name MoEx-1_0-st-v1
+##chip-name MoEx-1_0-st-ta1
+##lib-set-name MoEx-1_0-st
+##lib-set-version r2
+##genome-species Mus musculus
+##genome-version mm9
+##genome-version-ncbi 37
+##genome-version-ucsc mm9
+##genome-version-date 2007 July
+##IGB-filter-hierarchy  0 transcript_cluster <transcript_cluster_id>
+##IGB-filter-hierarchy  1 intron_cluster <intron_cluster_id>
+##IGB-filter-hierarchy  1 exon_cluster <exon_cluster_id>
+##IGB-filter-hierarchy  2 psr <psr_id>
+##IGB-filter-hierarchy  3 probeset <probeset_name>
+##IGB-filter-hierarchy  4 probe <probe_id>
+chr19	MoEx-1_0-st	transcript_cluster	3021158	3021714	.	+	.	transcript_cluster_id 7001390
+chr19	MoEx-1_0-st	exon_cluster	3021158	3021286	.	+	.	transcript_cluster_id 7001390; exon_cluster_id 884547
+chr19	MoEx-1_0-st	psr	3021158	3021286	.	+	.	psr_id 113849522; transcript_cluster_id 7001390; exon_cluster_id 884547
+chr19	MoEx-1_0-st	probeset	3021160	3021270	.	+	.	probe_count 4; psr_id 113849522; number_independent_probes 3; probeset_id 5451045; probeset_type 3; transcript_cluster_id 7001390; exon_cluster_id 884547; number_nonoverlapping_probes 3; level "extended"; evidence "est:1"
+# 5451045 gi:37192964 est
+chr19	MoEx-1_0-st	probe	3021160	3021184	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5111985; psr_id 113849522; probeset_id 5451045; probe_x 2224; transcript_cluster_id 7001390; exon_cluster_id 884547; probe_y 1996; probe "gagtaatttctctaacttctttctc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3021216	3021240	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 6422103; psr_id 113849522; probeset_id 5451045; probe_x 1622; transcript_cluster_id 7001390; exon_cluster_id 884547; probe_y 2508; probe "ttgcttgattagagtaacaccaagg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3021235	3021259	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4668336; psr_id 113849522; probeset_id 5451045; probe_x 1455; transcript_cluster_id 7001390; exon_cluster_id 884547; probe_y 1823; probe "cttgacttctatctttcacttgctt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3021246	3021270	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 2901851; psr_id 113849522; probeset_id 5451045; probe_x 1370; transcript_cluster_id 7001390; exon_cluster_id 884547; probe_y 1133; probe "gacttgaagttcttgacttctatct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3021333	3021714	.	+	.	transcript_cluster_id 7001390; exon_cluster_id 884548
+chr19	MoEx-1_0-st	psr	3021333	3021714	.	+	.	psr_id 113849524; transcript_cluster_id 7001390; exon_cluster_id 884548
+chr19	MoEx-1_0-st	probeset	3021539	3021645	.	+	.	probe_count 4; psr_id 113849524; number_independent_probes 2; probeset_id 5557066; probeset_type 1; transcript_cluster_id 7001390; exon_cluster_id 884548; number_nonoverlapping_probes 2; level "extended"; evidence "est:1"
+# 5557066 gi:37192964 est
+chr19	MoEx-1_0-st	probe	3021539	3021563	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1930763; psr_id 113849524; probeset_id 5557066; probe_x 522; transcript_cluster_id 7001390; exon_cluster_id 884548; probe_y 754; probe "tatatcactattcttctgaagtaca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3021548	3021572	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6457316; psr_id 113849524; probeset_id 5557066; probe_x 995; transcript_cluster_id 7001390; exon_cluster_id 884548; probe_y 2522; probe "gtctctctttatatcactattcttc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3021617	3021641	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3297641; psr_id 113849524; probeset_id 5557066; probe_x 360; transcript_cluster_id 7001390; exon_cluster_id 884548; probe_y 1288; probe "tataaagtgatcatatgtgtatggg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3021621	3021645	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 640603; psr_id 113849524; probeset_id 5557066; probe_x 602; transcript_cluster_id 7001390; exon_cluster_id 884548; probe_y 250; probe "caaatataaagtgatcatatgtgta"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3091989	3093194	.	+	.	transcript_cluster_id 7006380
+chr19	MoEx-1_0-st	exon_cluster	3091989	3092112	.	+	.	transcript_cluster_id 7006380; exon_cluster_id 895649
+chr19	MoEx-1_0-st	psr	3091989	3092112	.	+	.	psr_id 113901856; transcript_cluster_id 7006380; exon_cluster_id 895649
+chr19	MoEx-1_0-st	probeset	3091989	3092028	.	+	.	probe_count 4; psr_id 113901856; number_independent_probes 2; probeset_id 4796162; probeset_type 3; transcript_cluster_id 7006380; exon_cluster_id 895649; number_nonoverlapping_probes 1; level "full"; evidence "geneid:1" "genscanSubopt:1"
+# 4796162 chrUn_random_384.1 geneid
+# 4796162 chrUn_random_10.11 genscanSubopt
+chr19	MoEx-1_0-st	probe	3091989	3092013	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1147542; psr_id 113901856; probeset_id 4796162; probe_x 661; transcript_cluster_id 7006380; exon_cluster_id 895649; probe_y 448; probe "tcctgaggtatctggactcgttcat"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3092002	3092026	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 2817033; psr_id 113901856; probeset_id 4796162; probe_x 1032; transcript_cluster_id 7006380; exon_cluster_id 895649; probe_y 1100; probe "cctgaggtatctgtcctgaggtatc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3092003	3092027	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5660809; psr_id 113901856; probeset_id 4796162; probe_x 648; transcript_cluster_id 7006380; exon_cluster_id 895649; probe_y 2211; probe "tcctgaggtatctgtcctgaggtat"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3092004	3092028	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3485416; psr_id 113901856; probeset_id 4796162; probe_x 1255; transcript_cluster_id 7006380; exon_cluster_id 895649; probe_y 1361; probe "gtcctgaggtatctgtcctgaggta"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3092713	3093194	.	+	.	transcript_cluster_id 7006380; exon_cluster_id 895648
+chr19	MoEx-1_0-st	psr	3092713	3093194	.	+	.	psr_id 113901854; transcript_cluster_id 7006380; exon_cluster_id 895648
+chr19	MoEx-1_0-st	probeset	3092909	3093057	.	+	.	probe_count 4; psr_id 113901854; number_independent_probes 4; probeset_id 4573167; probeset_type 1; transcript_cluster_id 7006380; exon_cluster_id 895648; number_nonoverlapping_probes 4; level "full"; evidence "geneid:1" "genscanSubopt:1"
+# 4573167 chrUn_random_384.1 geneid
+# 4573167 chrUn_random_10.10 genscanSubopt
+chr19	MoEx-1_0-st	probe	3092909	3092933	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 903304; psr_id 113901854; probeset_id 4573167; probe_x 2183; transcript_cluster_id 7006380; exon_cluster_id 895648; probe_y 352; probe "ttgaagggccctaaccacatagtgg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3092938	3092962	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5575419; psr_id 113901854; probeset_id 4573167; probe_x 2298; transcript_cluster_id 7006380; exon_cluster_id 895648; probe_y 2177; probe "ggttggatactagggaccacctcca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3093001	3093025	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5670950; psr_id 113901854; probeset_id 4573167; probe_x 549; transcript_cluster_id 7006380; exon_cluster_id 895648; probe_y 2215; probe "ggatgagcacgagccctaataagca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3093033	3093057	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4826054; psr_id 113901854; probeset_id 4573167; probe_x 453; transcript_cluster_id 7006380; exon_cluster_id 895648; probe_y 1885; probe "tggagtgtgctcgaatatgacctac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3098511	3098667	.	+	.	transcript_cluster_id 7005502
+chr19	MoEx-1_0-st	exon_cluster	3098511	3098667	.	+	.	transcript_cluster_id 7005502; exon_cluster_id 893519
+chr19	MoEx-1_0-st	psr	3098511	3098637	.	+	.	psr_id 113885563; transcript_cluster_id 7005502; exon_cluster_id 893519
+chr19	MoEx-1_0-st	probeset	3098516	3098587	.	+	.	probe_count 4; psr_id 113885563; number_independent_probes 3; probeset_id 5360750; probeset_type 1; transcript_cluster_id 7005502; exon_cluster_id 893519; number_nonoverlapping_probes 2; level "full"; bounded 1; evidence "genscan:1" "genscanSubopt:1"
+# 5360750 chrUn_random_4.13 genscan
+# 5360750 chrUn_random_4.146 genscanSubopt
+chr19	MoEx-1_0-st	probe	3098516	3098540	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2433003; psr_id 113885563; probeset_id 5360750; probe_x 1002; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 950; probe "caaacacgcagtgcgccagtttgtc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3098545	3098569	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4613462; psr_id 113885563; probeset_id 5360750; probe_x 341; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 1802; probe "caattcgaagagtgatctctctcag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3098553	3098577	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3129352; psr_id 113885563; probeset_id 5360750; probe_x 1031; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 1222; probe "cagtggcccaattcgaagagtgatc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3098563	3098587	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3385903; psr_id 113885563; probeset_id 5360750; probe_x 1582; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 1322; probe "tttgataaagcagtggcccaattcg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3098638	3098667	.	+	.	psr_id 113885562; transcript_cluster_id 7005502; exon_cluster_id 893519
+chr19	MoEx-1_0-st	probeset	3098638	3098667	.	+	.	probe_count 4; psr_id 113885562; number_independent_probes 1; probeset_id 4910205; probeset_type 3; transcript_cluster_id 7005502; exon_cluster_id 893519; number_nonoverlapping_probes 1; level "full"; bounded 1; evidence "genscan:1"
+# 4910205 chrUn_random_4.13 genscan
+chr19	MoEx-1_0-st	probe	3098638	3098662	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4895769; psr_id 113885562; probeset_id 4910205; probe_x 1048; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 1912; probe "aatgaagcagcaaccctgtgtgtac"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3098641	3098665	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 446227; psr_id 113885562; probeset_id 4910205; probe_x 786; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 174; probe "cctaatgaagcagcaaccctgtgtg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3098642	3098666	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5223150; psr_id 113885562; probeset_id 4910205; probe_x 749; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 2040; probe "tcctaatgaagcagcaaccctgtgt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3098643	3098667	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5847830; psr_id 113885562; probeset_id 4910205; probe_x 789; transcript_cluster_id 7005502; exon_cluster_id 893519; probe_y 2284; probe "ttcctaatgaagcagcaaccctgtg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	transcript_cluster	3154121	3154200	.	+	.	transcript_cluster_id 7006079
+chr19	MoEx-1_0-st	exon_cluster	3154121	3154200	.	+	.	transcript_cluster_id 7006079; exon_cluster_id 894848
+chr19	MoEx-1_0-st	psr	3154121	3154200	.	+	.	psr_id 113899549; transcript_cluster_id 7006079; exon_cluster_id 894848
+chr19	MoEx-1_0-st	probeset	3154134	3154173	.	+	.	probe_count 4; psr_id 113899549; number_independent_probes 2; probeset_id 5487140; probeset_type 1; transcript_cluster_id 7006079; exon_cluster_id 894848; number_nonoverlapping_probes 1; level "full"; bounded 1; evidence "genscanSubopt:1"
+# 5487140 chrUn_random_8.43 genscanSubopt
+chr19	MoEx-1_0-st	probe	3154134	3154158	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3969732; psr_id 113899549; probeset_id 5487140; probe_x 1731; transcript_cluster_id 7006079; exon_cluster_id 894848; probe_y 1550; probe "agtggcaaagactctgtagttgtac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3154136	3154160	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2715034; psr_id 113899549; probeset_id 5487140; probe_x 1433; transcript_cluster_id 7006079; exon_cluster_id 894848; probe_y 1060; probe "caagtggcaaagactctgtagttgt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3154137	3154161	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4147983; psr_id 113899549; probeset_id 5487140; probe_x 782; transcript_cluster_id 7006079; exon_cluster_id 894848; probe_y 1620; probe "tcaagtggcaaagactctgtagttg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3154149	3154173	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2691399; psr_id 113899549; probeset_id 5487140; probe_x 838; transcript_cluster_id 7006079; exon_cluster_id 894848; probe_y 1051; probe "ccaacataagcatcaagtggcaaag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3156534	3161051	.	+	.	transcript_cluster_id 7006713
+chr19	MoEx-1_0-st	exon_cluster	3156534	3156806	.	+	.	transcript_cluster_id 7006713; exon_cluster_id 896355
+chr19	MoEx-1_0-st	psr	3156534	3156649	.	+	.	psr_id 113904104; transcript_cluster_id 7006713; exon_cluster_id 896355
+chr19	MoEx-1_0-st	probeset	3156541	3156572	.	+	.	probe_count 4; psr_id 113904104; number_independent_probes 1; probeset_id 5068056; probeset_type 1; transcript_cluster_id 7006713; exon_cluster_id 896355; number_nonoverlapping_probes 1; level "full"; evidence "genscan:1"
+# 5068056 chrUn_random_12.7 genscan
+chr19	MoEx-1_0-st	probe	3156541	3156565	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2102242; psr_id 113904104; probeset_id 5068056; probe_x 481; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 821; probe "gtgatacaagctctgagccgcctcc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3156544	3156568	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3615837; psr_id 113904104; probeset_id 5068056; probe_x 1116; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 1412; probe "aaggtgatacaagctctgagccgcc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3156546	3156570	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5463392; psr_id 113904104; probeset_id 5068056; probe_x 351; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 2134; probe "tgaaggtgatacaagctctgagccg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3156548	3156572	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1510800; psr_id 113904104; probeset_id 5068056; probe_x 399; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 590; probe "ggtgaaggtgatacaagctctgagc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3156650	3156806	.	+	.	psr_id 113904103; transcript_cluster_id 7006713; exon_cluster_id 896355
+chr19	MoEx-1_0-st	probeset	3156661	3156730	.	+	.	probe_count 4; psr_id 113904103; number_independent_probes 3; probeset_id 4612630; probeset_type 3; transcript_cluster_id 7006713; exon_cluster_id 896355; number_nonoverlapping_probes 2; level "full"; evidence "geneid:1" "genscan:1" "genscanSubopt:1" "sgpGene:1"
+# 4612630 chrUn_random_12.7 genscan
+# 4612630 chrUn_random_468.1 geneid
+# 4612630 chrUn_random_505.1 sgpGene
+# 4612630 chrUn_random_12.57 genscanSubopt
+chr19	MoEx-1_0-st	probe	3156661	3156685	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 417726; psr_id 113904103; probeset_id 4612630; probe_x 445; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 163; probe "tgagggtcctctcatcaggttgatc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3156682	3156706	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5179208; psr_id 113904103; probeset_id 4612630; probe_x 327; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 2023; probe "gacattgttgaagcacagccctgag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3156689	3156713	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 6405995; psr_id 113904103; probeset_id 4612630; probe_x 874; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 2502; probe "tcccaccgacattgttgaagcacag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3156706	3156730	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1623925; psr_id 113904103; probeset_id 4612630; probe_x 884; transcript_cluster_id 7006713; exon_cluster_id 896355; probe_y 634; probe "cacatactgttgatctgtcccaccg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3156861	3157053	.	+	.	transcript_cluster_id 7006713; exon_cluster_id 896354
+chr19	MoEx-1_0-st	psr	3156861	3156887	.	+	.	psr_id 113904101; transcript_cluster_id 7006713; exon_cluster_id 896354
+chr19	MoEx-1_0-st	probeset	3156862	3156887	.	+	.	probe_count 2; psr_id 113904101; number_independent_probes 1; probeset_id 4741829; probeset_type 1; transcript_cluster_id 7006713; exon_cluster_id 896354; number_nonoverlapping_probes 1; level "full"; evidence "genscanSubopt:2"
+# 4741829 chrUn_random_12.54 genscanSubopt
+# 4741829 chrUn_random_12.56 genscanSubopt
+chr19	MoEx-1_0-st	probe	3156862	3156886	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1521194; psr_id 113904101; probeset_id 4741829; probe_x 553; transcript_cluster_id 7006713; exon_cluster_id 896354; probe_y 594; probe "tgcatttcggaagaggtgtacagca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3156863	3156887	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 233922; psr_id 113904101; probeset_id 4741829; probe_x 961; transcript_cluster_id 7006713; exon_cluster_id 896354; probe_y 91; probe "ctgcatttcggaagaggtgtacagc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3156888	3157053	.	+	.	psr_id 113904100; transcript_cluster_id 7006713; exon_cluster_id 896354
+chr19	MoEx-1_0-st	probeset	3156997	3157022	.	+	.	probe_count 2; psr_id 113904100; number_independent_probes 1; probeset_id 4453006; probeset_type 1; transcript_cluster_id 7006713; exon_cluster_id 896354; number_nonoverlapping_probes 1; level "full"; evidence "genscanSubopt:4" "sgpGene:1"
+# 4453006 chrUn_random_505.1 sgpGene
+# 4453006 chrUn_random_12.53 genscanSubopt
+# 4453006 chrUn_random_12.54 genscanSubopt
+# 4453006 chrUn_random_12.55 genscanSubopt
+# 4453006 chrUn_random_12.56 genscanSubopt
+chr19	MoEx-1_0-st	probe	3156997	3157021	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5657445; psr_id 113904100; probeset_id 4453006; probe_x 2404; transcript_cluster_id 7006713; exon_cluster_id 896354; probe_y 2209; probe "agtatcccaaagggcaaacactggt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3156998	3157022	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5204101; psr_id 113904100; probeset_id 4453006; probe_x 2180; transcript_cluster_id 7006713; exon_cluster_id 896354; probe_y 2032; probe "cagtatcccaaagggcaaacactgg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3159025	3159088	.	+	.	transcript_cluster_id 7006713; exon_cluster_id 896353
+chr19	MoEx-1_0-st	psr	3159025	3159088	.	+	.	psr_id 113904095; transcript_cluster_id 7006713; exon_cluster_id 896353
+chr19	MoEx-1_0-st	probeset	3159036	3159088	.	+	.	probe_count 4; psr_id 113904095; number_independent_probes 2; probeset_id 5524488; probeset_type 3; transcript_cluster_id 7006713; exon_cluster_id 896353; number_nonoverlapping_probes 2; level "full"; evidence "geneid:1" "genscan:1"
+# 5524488 chrUn_random_12.7 genscan
+# 5524488 chrUn_random_468.1 geneid
+chr19	MoEx-1_0-st	probe	3159036	3159060	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5030175; psr_id 113904095; probeset_id 5524488; probe_x 2334; transcript_cluster_id 7006713; exon_cluster_id 896353; probe_y 1964; probe "gacttagttgttccgtgggtcgaga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3159062	3159086	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5843109; psr_id 113904095; probeset_id 5524488; probe_x 1188; transcript_cluster_id 7006713; exon_cluster_id 896353; probe_y 2282; probe "taggcaccatttgtcccgtccagca"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3159063	3159087	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1117815; psr_id 113904095; probeset_id 5524488; probe_x 1654; transcript_cluster_id 7006713; exon_cluster_id 896353; probe_y 436; probe "ttaggcaccatttgtcccgtccagc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3159064	3159088	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5367896; psr_id 113904095; probeset_id 5524488; probe_x 2135; transcript_cluster_id 7006713; exon_cluster_id 896353; probe_y 2096; probe "tttaggcaccatttgtcccgtccag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3159879	3160044	.	+	.	transcript_cluster_id 7006713; exon_cluster_id 896352
+chr19	MoEx-1_0-st	psr	3159879	3159917	.	+	.	psr_id 113904091; transcript_cluster_id 7006713; exon_cluster_id 896352
+chr19	MoEx-1_0-st	probeset	3159890	3159917	.	+	.	probe_count 4; psr_id 113904091; number_independent_probes 1; probeset_id 5067735; probeset_type 3; transcript_cluster_id 7006713; exon_cluster_id 896352; number_nonoverlapping_probes 1; level "full"; evidence "genscan:1" "genscanSubopt:2"
+# 5067735 chrUn_random_12.7 genscan
+# 5067735 chrUn_random_12.50 genscanSubopt
+# 5067735 chrUn_random_12.51 genscanSubopt
+chr19	MoEx-1_0-st	probe	3159890	3159914	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5508975; psr_id 113904091; probeset_id 5067735; probe_x 2414; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 2151; probe "agattttacgcctgagctttctttt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3159891	3159915	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5434368; psr_id 113904091; probeset_id 5067735; probe_x 2047; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 2122; probe "tagattttacgcctgagctttcttt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3159892	3159916	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 414224; psr_id 113904091; probeset_id 5067735; probe_x 2063; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 161; probe "ttagattttacgcctgagctttctt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3159893	3159917	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 2478373; psr_id 113904091; probeset_id 5067735; probe_x 292; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 968; probe "tttagattttacgcctgagctttct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	psr	3159918	3160044	.	+	.	psr_id 113904090; transcript_cluster_id 7006713; exon_cluster_id 896352
+chr19	MoEx-1_0-st	probeset	3159919	3160016	.	+	.	probe_count 4; psr_id 113904090; number_independent_probes 3; probeset_id 5166855; probeset_type 1; transcript_cluster_id 7006713; exon_cluster_id 896352; number_nonoverlapping_probes 2; level "full"; evidence "genscan:1" "genscanSubopt:3"
+# 5166855 chrUn_random_12.7 genscan
+# 5166855 chrUn_random_12.49 genscanSubopt
+# 5166855 chrUn_random_12.50 genscanSubopt
+# 5166855 chrUn_random_12.51 genscanSubopt
+chr19	MoEx-1_0-st	probe	3159919	3159943	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 360253; psr_id 113904090; probeset_id 5166855; probe_x 1852; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 140; probe "caggtaattacagggtaagccagca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3159932	3159956	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3094313; psr_id 113904090; probeset_id 5166855; probe_x 1832; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 1208; probe "ggctcccgtggagcaggtaattaca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3159981	3160005	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6281097; psr_id 113904090; probeset_id 5166855; probe_x 1416; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 2453; probe "cgatccgggaggagttctctgcagt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3159992	3160016	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3252750; psr_id 113904090; probeset_id 5166855; probe_x 1549; transcript_cluster_id 7006713; exon_cluster_id 896352; probe_y 1270; probe "ttcagcttgggcgatccgggaggag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3160304	3160518	.	+	.	transcript_cluster_id 7006713; exon_cluster_id 896351
+chr19	MoEx-1_0-st	psr	3160304	3160428	.	+	.	psr_id 113904088; transcript_cluster_id 7006713; exon_cluster_id 896351
+chr19	MoEx-1_0-st	probeset	3160321	3160413	.	+	.	probe_count 4; psr_id 113904088; number_independent_probes 4; probeset_id 4401741; probeset_type 1; transcript_cluster_id 7006713; exon_cluster_id 896351; number_nonoverlapping_probes 3; level "full"; evidence "genscan:1" "genscanSubopt:1"
+# 4401741 chrUn_random_12.7 genscan
+# 4401741 chrUn_random_12.48 genscanSubopt
+chr19	MoEx-1_0-st	probe	3160321	3160345	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6035970; psr_id 113904088; probeset_id 4401741; probe_x 2049; transcript_cluster_id 7006713; exon_cluster_id 896351; probe_y 2357; probe "tggcaccaatcaaggaagtccgttt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3160350	3160374	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3592322; psr_id 113904088; probeset_id 4401741; probe_x 641; transcript_cluster_id 7006713; exon_cluster_id 896351; probe_y 1403; probe "gagacctctggttagttgctgcaat"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3160372	3160396	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3400539; psr_id 113904088; probeset_id 4401741; probe_x 858; transcript_cluster_id 7006713; exon_cluster_id 896351; probe_y 1328; probe "tctcaaaggtccaagctgcgaggag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3160389	3160413	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4894274; psr_id 113904088; probeset_id 4401741; probe_x 2113; transcript_cluster_id 7006713; exon_cluster_id 896351; probe_y 1911; probe "gccttgaccgttaagcttctcaaag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3160429	3160518	.	+	.	psr_id 113904087; transcript_cluster_id 7006713; exon_cluster_id 896351
+chr19	MoEx-1_0-st	probeset	3160462	3160517	.	+	.	probe_count 2; psr_id 113904087; number_independent_probes 2; probeset_id 4576152; probeset_type 1; transcript_cluster_id 7006713; exon_cluster_id 896351; number_nonoverlapping_probes 2; level "full"; evidence "genscanSubopt:1"
+# 4576152 chrUn_random_12.48 genscanSubopt
+chr19	MoEx-1_0-st	probe	3160462	3160486	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 394345; psr_id 113904087; probeset_id 4576152; probe_x 104; transcript_cluster_id 7006713; exon_cluster_id 896351; probe_y 154; probe "tgagtgctgcgttggcagtttgagc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3160493	3160517	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5900457; psr_id 113904087; probeset_id 4576152; probe_x 2216; transcript_cluster_id 7006713; exon_cluster_id 896351; probe_y 2304; probe "tatgggcgtaataaccgagcctttc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3160909	3161051	.	+	.	transcript_cluster_id 7006713; exon_cluster_id 896350
+chr19	MoEx-1_0-st	psr	3160909	3161051	.	+	.	psr_id 113904085; transcript_cluster_id 7006713; exon_cluster_id 896350
+chr19	MoEx-1_0-st	probeset	3160927	3161007	.	+	.	probe_count 4; psr_id 113904085; number_independent_probes 3; probeset_id 5035009; probeset_type 1; transcript_cluster_id 7006713; exon_cluster_id 896350; number_nonoverlapping_probes 3; level "full"; evidence "genscan:1"
+# 5035009 chrUn_random_12.7 genscan
+chr19	MoEx-1_0-st	probe	3160927	3160951	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6496369; psr_id 113904085; probeset_id 5035009; probe_x 1648; transcript_cluster_id 7006713; exon_cluster_id 896350; probe_y 2537; probe "tgttgggtggtgcaaggtgggcggc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3160958	3160982	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5334731; psr_id 113904085; probeset_id 5035009; probe_x 2250; transcript_cluster_id 7006713; exon_cluster_id 896350; probe_y 2083; probe "tgtttgccctttcggcaccgtggac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3160977	3161001	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1119504; psr_id 113904085; probeset_id 5035009; probe_x 783; transcript_cluster_id 7006713; exon_cluster_id 896350; probe_y 437; probe "tatacagccactagcccagtgtttg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3160983	3161007	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5952877; psr_id 113904085; probeset_id 5035009; probe_x 876; transcript_cluster_id 7006713; exon_cluster_id 896350; probe_y 2325; probe "tttagatatacagccactagcccag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3158111	3158196	.	+	.	transcript_cluster_id 7006716
+chr19	MoEx-1_0-st	exon_cluster	3158111	3158196	.	+	.	transcript_cluster_id 7006716; exon_cluster_id 896358
+chr19	MoEx-1_0-st	psr	3158111	3158196	.	+	.	psr_id 113904097; transcript_cluster_id 7006716; exon_cluster_id 896358
+chr19	MoEx-1_0-st	probeset	3158145	3158170	.	+	.	probe_count 2; psr_id 113904097; number_independent_probes 1; probeset_id 5052213; probeset_type 1; transcript_cluster_id 7006716; exon_cluster_id 896358; number_nonoverlapping_probes 1; level "full"; evidence "genscanSubopt:1"
+# 5052213 chrUn_random_12.52 genscanSubopt
+chr19	MoEx-1_0-st	probe	3158145	3158169	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5473692; psr_id 113904097; probeset_id 5052213; probe_x 411; transcript_cluster_id 7006716; exon_cluster_id 896358; probe_y 2138; probe "ttgatggttgatttggccctgctgc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3158146	3158170	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5550883; psr_id 113904097; probeset_id 5052213; probe_x 802; transcript_cluster_id 7006716; exon_cluster_id 896358; probe_y 2168; probe "cttgatggttgatttggccctgctg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3171525	3171754	.	+	.	transcript_cluster_id 7005508
+chr19	MoEx-1_0-st	exon_cluster	3171525	3171754	.	+	.	transcript_cluster_id 7005508; exon_cluster_id 893546
+chr19	MoEx-1_0-st	psr	3171525	3171754	.	+	.	psr_id 113885659; transcript_cluster_id 7005508; exon_cluster_id 893546
+chr19	MoEx-1_0-st	probeset	3171559	3171592	.	+	.	probe_count 4; psr_id 113885659; number_independent_probes 1; probeset_id 4891748; probeset_type 1; transcript_cluster_id 7005508; exon_cluster_id 893546; number_nonoverlapping_probes 1; level "full"; evidence "geneid:1"
+# 4891748 chrUn_random_143.1 geneid
+chr19	MoEx-1_0-st	probe	3171559	3171583	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1522102; psr_id 113885659; probeset_id 4891748; probe_x 1461; transcript_cluster_id 7005508; exon_cluster_id 893546; probe_y 594; probe "gtgttgagtggtcagctgaaccctt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3171563	3171587	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1311760; psr_id 113885659; probeset_id 4891748; probe_x 1039; transcript_cluster_id 7005508; exon_cluster_id 893546; probe_y 512; probe "cctggtgttgagtggtcagctgaac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3171565	3171589	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 77394; psr_id 113885659; probeset_id 4891748; probe_x 593; transcript_cluster_id 7005508; exon_cluster_id 893546; probe_y 30; probe "tacctggtgttgagtggtcagctga"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3171568	3171592	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5996484; psr_id 113885659; probeset_id 4891748; probe_x 963; transcript_cluster_id 7005508; exon_cluster_id 893546; probe_y 2342; probe "ctctacctggtgttgagtggtcagc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3197482	3205296	.	+	.	transcript_cluster_id 7008293
+chr19	MoEx-1_0-st	exon_cluster	3197482	3197591	.	+	.	transcript_cluster_id 7008293; exon_cluster_id 900006
+chr19	MoEx-1_0-st	psr	3197482	3197591	.	+	.	psr_id 113914505; transcript_cluster_id 7008293; exon_cluster_id 900006
+chr19	MoEx-1_0-st	probeset	3197567	3197591	.	+	.	probe_count 1; psr_id 113914505; number_independent_probes 1; probeset_id 4489346; probeset_type 1; transcript_cluster_id 7008293; exon_cluster_id 900006; number_nonoverlapping_probes 1; level "full"; evidence "genscan:1"
+# 4489346 chrUn_random_17.12 genscan
+chr19	MoEx-1_0-st	probe	3197567	3197591	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3801974; psr_id 113914505; probeset_id 4489346; probe_x 373; transcript_cluster_id 7008293; exon_cluster_id 900006; probe_y 1485; probe "tcactgcgaggcacttcttcactgg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3205076	3205296	.	+	.	transcript_cluster_id 7008293; exon_cluster_id 900007
+chr19	MoEx-1_0-st	psr	3205076	3205187	.	+	.	psr_id 113914525; transcript_cluster_id 7008293; exon_cluster_id 900007
+chr19	MoEx-1_0-st	probeset	3205076	3205166	.	+	.	probe_count 4; psr_id 113914525; number_independent_probes 4; probeset_id 5589835; probeset_type 3; transcript_cluster_id 7008293; exon_cluster_id 900007; number_nonoverlapping_probes 2; level "full"; evidence "genscan:1" "genscanSubopt:1"
+# 5589835 chrUn_random_17.12 genscan
+# 5589835 chrUn_random_17.144 genscanSubopt
+chr19	MoEx-1_0-st	probe	3205076	3205100	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 2656054; psr_id 113914525; probeset_id 5589835; probe_x 1333; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 1037; probe "tgtcacaccaggtttctttcttcat"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205088	3205112	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3776727; psr_id 113914525; probeset_id 5589835; probe_x 726; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 1475; probe "tcagtgggacaatgtcacaccaggt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205128	3205152	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4571173; psr_id 113914525; probeset_id 5589835; probe_x 1572; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 1785; probe "cgcaagactgtggtgtccctatccg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205142	3205166	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5888268; psr_id 113914525; probeset_id 5589835; probe_x 267; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 2300; probe "tgctgatggtttgccgcaagactgt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	psr	3205188	3205222	.	+	.	psr_id 113914524; transcript_cluster_id 7008293; exon_cluster_id 900007
+chr19	MoEx-1_0-st	probeset	3205191	3205222	.	+	.	probe_count 4; psr_id 113914524; number_independent_probes 1; probeset_id 5383601; probeset_type 3; transcript_cluster_id 7008293; exon_cluster_id 900007; number_nonoverlapping_probes 1; level "full"; evidence "genscan:1"
+# 5383601 chrUn_random_17.12 genscan
+chr19	MoEx-1_0-st	probe	3205191	3205215	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4698977; psr_id 113914524; probeset_id 5383601; probe_x 1376; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 1835; probe "agaacagaaaggaagtggcagctct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205192	3205216	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 6508535; psr_id 113914524; probeset_id 5383601; probe_x 1014; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 2542; probe "cagaacagaaaggaagtggcagctc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205193	3205217	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3784395; psr_id 113914524; probeset_id 5383601; probe_x 714; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 1478; probe "gcagaacagaaaggaagtggcagct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205198	3205222	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5792355; psr_id 113914524; probeset_id 5383601; probe_x 1634; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 2262; probe "ctgtggcagaacagaaaggaagtgg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	psr	3205223	3205296	.	+	.	psr_id 113914523; transcript_cluster_id 7008293; exon_cluster_id 900007
+chr19	MoEx-1_0-st	probeset	3205268	3205296	.	+	.	probe_count 4; psr_id 113914523; number_independent_probes 1; probeset_id 5048304; probeset_type 3; transcript_cluster_id 7008293; exon_cluster_id 900007; number_nonoverlapping_probes 1; level "full"; evidence "geneid:1" "genscan:1"
+# 5048304 chrUn_random_840.1 geneid
+# 5048304 chrUn_random_17.12 genscan
+chr19	MoEx-1_0-st	probe	3205268	3205292	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1652401; psr_id 113914523; probeset_id 5048304; probe_x 1200; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 645; probe "tggcctgctccataactgggaagga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205270	3205294	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3286002; psr_id 113914523; probeset_id 5048304; probe_x 1521; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 1283; probe "tttggcctgctccataactgggaag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205271	3205295	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 6545306; psr_id 113914523; probeset_id 5048304; probe_x 1945; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 2556; probe "ttttggcctgctccataactgggaa"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205272	3205296	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4133710; psr_id 113914523; probeset_id 5048304; probe_x 1869; transcript_cluster_id 7008293; exon_cluster_id 900007; probe_y 1614; probe "cttttggcctgctccataactggga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	transcript_cluster	3203205	3203449	.	+	.	transcript_cluster_id 7008297
+chr19	MoEx-1_0-st	exon_cluster	3203205	3203449	.	+	.	transcript_cluster_id 7008297; exon_cluster_id 900021
+chr19	MoEx-1_0-st	psr	3203205	3203449	.	+	.	psr_id 113914527; transcript_cluster_id 7008297; exon_cluster_id 900021
+chr19	MoEx-1_0-st	probeset	3203206	3203305	.	+	.	probe_count 4; psr_id 113914527; number_independent_probes 4; probeset_id 4852753; probeset_type 1; transcript_cluster_id 7008297; exon_cluster_id 900021; number_nonoverlapping_probes 2; level "extended"; evidence "est:2"
+# 4852753 gi:4402965 est
+# 4852753 gi:2527634 est
+chr19	MoEx-1_0-st	probe	3203206	3203230	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6231802; psr_id 113914527; probeset_id 4852753; probe_x 761; transcript_cluster_id 7008297; exon_cluster_id 900021; probe_y 2434; probe "tgtagactgtcaaggccatcaggtt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3203230	3203254	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1671916; psr_id 113914527; probeset_id 4852753; probe_x 235; transcript_cluster_id 7008297; exon_cluster_id 900021; probe_y 653; probe "gaatgattccattgactgaagcact"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3203265	3203289	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1913222; psr_id 113914527; probeset_id 4852753; probe_x 901; transcript_cluster_id 7008297; exon_cluster_id 900021; probe_y 747; probe "gtggactactatgccatcttgaggg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3203281	3203305	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3400726; psr_id 113914527; probeset_id 4852753; probe_x 1045; transcript_cluster_id 7008297; exon_cluster_id 900021; probe_y 1328; probe "gcatcttctccgactggtggactac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3205631	3206272	.	+	.	transcript_cluster_id 7008296
+chr19	MoEx-1_0-st	exon_cluster	3205631	3205667	.	+	.	transcript_cluster_id 7008296; exon_cluster_id 900020
+chr19	MoEx-1_0-st	psr	3205631	3205667	.	+	.	psr_id 113914521; transcript_cluster_id 7008296; exon_cluster_id 900020
+chr19	MoEx-1_0-st	probeset	3205631	3205662	.	+	.	probe_count 4; psr_id 113914521; number_independent_probes 1; probeset_id 4989675; probeset_type 3; transcript_cluster_id 7008296; exon_cluster_id 900020; number_nonoverlapping_probes 1; level "extended"; evidence "est:2"
+# 4989675 gi:26156205 est
+# 4989675 gi:1315867 est
+chr19	MoEx-1_0-st	probe	3205631	3205655	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 558634; psr_id 113914521; probeset_id 4989675; probe_x 553; transcript_cluster_id 7008296; exon_cluster_id 900020; probe_y 218; probe "cgagagacccgagacacagacagca"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205633	3205657	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4967274; psr_id 113914521; probeset_id 4989675; probe_x 873; transcript_cluster_id 7008296; exon_cluster_id 900020; probe_y 1940; probe "gccgagagacccgagacacagacag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205636	3205660	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1268416; psr_id 113914521; probeset_id 4989675; probe_x 1215; transcript_cluster_id 7008296; exon_cluster_id 900020; probe_y 495; probe "gcggccgagagacccgagacacaga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3205638	3205662	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 6293629; psr_id 113914521; probeset_id 4989675; probe_x 1148; transcript_cluster_id 7008296; exon_cluster_id 900020; probe_y 2458; probe "cagcggccgagagacccgagacaca"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3205853	3206073	.	+	.	transcript_cluster_id 7008296; exon_cluster_id 900019
+chr19	MoEx-1_0-st	psr	3205853	3206008	.	+	.	psr_id 113914517; transcript_cluster_id 7008296; exon_cluster_id 900019
+chr19	MoEx-1_0-st	probeset	3205954	3205991	.	+	.	probe_count 4; psr_id 113914517; number_independent_probes 2; probeset_id 4485221; probeset_type 1; transcript_cluster_id 7008296; exon_cluster_id 900019; number_nonoverlapping_probes 1; level "extended"; evidence "est:4" "genscanSubopt:2" "sgpGene:1"
+# 4485221 gi:26914564 est
+# 4485221 gi:3371762 est
+# 4485221 gi:6152835 est
+# 4485221 chrUn_random_855.1 sgpGene
+# 4485221 chrUn_random_17.142 genscanSubopt
+# 4485221 gi:26156205 est
+# 4485221 chrUn_random_17.143 genscanSubopt
+chr19	MoEx-1_0-st	probe	3205954	3205978	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3501723; psr_id 113914517; probeset_id 4485221; probe_x 2202; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 1367; probe "tgtaacgtacgggggtctctcctgc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3205957	3205981	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5598439; psr_id 113914517; probeset_id 4485221; probe_x 2278; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 2186; probe "tgatgtaacgtacgggggtctctcc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3205966	3205990	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5565039; psr_id 113914517; probeset_id 4485221; probe_x 2158; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 2173; probe "gcttggtcctgatgtaacgtacggg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3205967	3205991	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5329523; psr_id 113914517; probeset_id 4485221; probe_x 2162; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 2081; probe "ggcttggtcctgatgtaacgtacgg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3206009	3206041	.	+	.	psr_id 113914516; transcript_cluster_id 7008296; exon_cluster_id 900019
+chr19	MoEx-1_0-st	probeset	3206012	3206041	.	+	.	probe_count 4; psr_id 113914516; number_independent_probes 1; probeset_id 4877743; probeset_type 2; transcript_cluster_id 7008296; exon_cluster_id 900019; number_nonoverlapping_probes 1; level "extended"; evidence "est:12" "genscanSubopt:2"
+# 4877743 gi:6097099 est
+# 4877743 gi:6096170 est
+# 4877743 gi:5491122 est
+# 4877743 gi:11272366 est
+# 4877743 gi:2235270 est
+# 4877743 gi:26914564 est
+# 4877743 gi:3371762 est
+# 4877743 gi:2812386 est
+# 4877743 gi:2802358 est
+# 4877743 gi:5597940 est
+# 4877743 gi:6152835 est
+# 4877743 chrUn_random_17.142 genscanSubopt
+# 4877743 gi:26156205 est
+# 4877743 chrUn_random_17.143 genscanSubopt
+chr19	MoEx-1_0-st	probe	3206012	3206036	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5096420; psr_id 113914516; probeset_id 4877743; probe_x 2019; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 1990; probe "tgagggttgtggaagagggtatggt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206013	3206037	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 880258; psr_id 113914516; probeset_id 4877743; probe_x 2177; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 343; probe "atgagggttgtggaagagggtatgg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206014	3206038	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 6204394; psr_id 113914516; probeset_id 4877743; probe_x 1513; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 2423; probe "catgagggttgtggaagagggtatg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206017	3206041	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5799809; psr_id 113914516; probeset_id 4877743; probe_x 1408; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 2265; probe "tcacatgagggttgtggaagagggt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	psr	3206042	3206073	.	+	.	psr_id 113914515; transcript_cluster_id 7008296; exon_cluster_id 900019
+chr19	MoEx-1_0-st	probeset	3206046	3206073	.	+	.	probe_count 4; psr_id 113914515; number_independent_probes 1; probeset_id 5537618; probeset_type 3; transcript_cluster_id 7008296; exon_cluster_id 900019; number_nonoverlapping_probes 1; level "extended"; evidence "est:13" "genscanSubopt:1"
+# 5537618 gi:10600034 est
+# 5537618 gi:6099871 est
+# 5537618 gi:6097099 est
+# 5537618 gi:6096170 est
+# 5537618 gi:5491122 est
+# 5537618 gi:11272366 est
+# 5537618 gi:2235270 est
+# 5537618 gi:26914564 est
+# 5537618 gi:3371762 est
+# 5537618 gi:2812386 est
+# 5537618 gi:2802358 est
+# 5537618 gi:5597940 est
+# 5537618 gi:6152835 est
+# 5537618 chrUn_random_17.142 genscanSubopt
+chr19	MoEx-1_0-st	probe	3206046	3206070	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 903155; psr_id 113914515; probeset_id 5537618; probe_x 2034; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 352; probe "ctcatcttcaaagccggttggaagt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206047	3206071	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4579386; psr_id 113914515; probeset_id 5537618; probe_x 2105; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 1788; probe "actcatcttcaaagccggttggaag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206048	3206072	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 882589; psr_id 113914515; probeset_id 5537618; probe_x 1948; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 344; probe "tactcatcttcaaagccggttggaa"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206049	3206073	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1266498; psr_id 113914515; probeset_id 5537618; probe_x 1857; transcript_cluster_id 7008296; exon_cluster_id 900019; probe_y 494; probe "ttactcatcttcaaagccggttgga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3206095	3206164	.	+	.	transcript_cluster_id 7008296; exon_cluster_id 900018
+chr19	MoEx-1_0-st	psr	3206095	3206164	.	+	.	psr_id 113914513; transcript_cluster_id 7008296; exon_cluster_id 900018
+chr19	MoEx-1_0-st	probeset	3206110	3206155	.	+	.	probe_count 4; psr_id 113914513; number_independent_probes 2; probeset_id 5377826; probeset_type 3; transcript_cluster_id 7008296; exon_cluster_id 900018; number_nonoverlapping_probes 1; level "extended"; evidence "est:17" "genscanSubopt:1"
+# 5377826 gi:9978954 est
+# 5377826 gi:10600034 est
+# 5377826 gi:38496735 est
+# 5377826 gi:6099871 est
+# 5377826 gi:6097757 est
+# 5377826 gi:6097099 est
+# 5377826 gi:6096170 est
+# 5377826 gi:5491122 est
+# 5377826 gi:38496687 est
+# 5377826 gi:11272366 est
+# 5377826 gi:2235270 est
+# 5377826 gi:26914564 est
+# 5377826 gi:3371762 est
+# 5377826 gi:2812386 est
+# 5377826 gi:2802358 est
+# 5377826 gi:5597940 est
+# 5377826 gi:6152835 est
+# 5377826 chrUn_random_17.141 genscanSubopt
+chr19	MoEx-1_0-st	probe	3206110	3206134	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 470490; psr_id 113914513; probeset_id 5377826; probe_x 2009; transcript_cluster_id 7008296; exon_cluster_id 900018; probe_y 183; probe "cagagaagggtccaaaaccagtgct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206112	3206136	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3166248; psr_id 113914513; probeset_id 5377826; probe_x 2087; transcript_cluster_id 7008296; exon_cluster_id 900018; probe_y 1236; probe "cacagagaagggtccaaaaccagtg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206126	3206150	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4471381; psr_id 113914513; probeset_id 5377826; probe_x 1620; transcript_cluster_id 7008296; exon_cluster_id 900018; probe_y 1746; probe "gctttcgtggtccacacagagaagg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206131	3206155	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1978195; psr_id 113914513; probeset_id 5377826; probe_x 1874; transcript_cluster_id 7008296; exon_cluster_id 900018; probe_y 772; probe "aatgggctttcgtggtccacacaga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3206186	3206272	.	+	.	transcript_cluster_id 7008296; exon_cluster_id 900017
+chr19	MoEx-1_0-st	psr	3206186	3206272	.	+	.	psr_id 113914511; transcript_cluster_id 7008296; exon_cluster_id 900017
+chr19	MoEx-1_0-st	probeset	3206186	3206217	.	+	.	probe_count 4; psr_id 113914511; number_independent_probes 1; probeset_id 4343855; probeset_type 2; transcript_cluster_id 7008296; exon_cluster_id 900017; number_nonoverlapping_probes 1; level "extended"; evidence "est:17" "sgpGene:1"
+# 4343855 gi:9978954 est
+# 4343855 gi:10600034 est
+# 4343855 gi:38496735 est
+# 4343855 gi:6099871 est
+# 4343855 gi:6097757 est
+# 4343855 gi:6097099 est
+# 4343855 gi:6096170 est
+# 4343855 gi:5491122 est
+# 4343855 gi:38496687 est
+# 4343855 gi:11272366 est
+# 4343855 gi:2235270 est
+# 4343855 gi:26914564 est
+# 4343855 gi:3371762 est
+# 4343855 gi:2812386 est
+# 4343855 gi:2802358 est
+# 4343855 gi:5597940 est
+# 4343855 gi:6152835 est
+# 4343855 chrUn_random_855.1 sgpGene
+chr19	MoEx-1_0-st	probe	3206186	3206210	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 881313; psr_id 113914511; probeset_id 4343855; probe_x 672; transcript_cluster_id 7008296; exon_cluster_id 900017; probe_y 344; probe "ggaagatcagagtaatggtcgccat"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206188	3206212	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5968478; psr_id 113914511; probeset_id 4343855; probe_x 1117; transcript_cluster_id 7008296; exon_cluster_id 900017; probe_y 2331; probe "atggaagatcagagtaatggtcgcc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206189	3206213	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5880710; psr_id 113914511; probeset_id 4343855; probe_x 389; transcript_cluster_id 7008296; exon_cluster_id 900017; probe_y 2297; probe "gatggaagatcagagtaatggtcgc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3206193	3206217	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 964183; psr_id 113914511; probeset_id 4343855; probe_x 1622; transcript_cluster_id 7008296; exon_cluster_id 900017; probe_y 376; probe "aagggatggaagatcagagtaatgg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	transcript_cluster	3207081	3207380	.	+	.	transcript_cluster_id 7008295
+chr19	MoEx-1_0-st	exon_cluster	3207081	3207380	.	+	.	transcript_cluster_id 7008295; exon_cluster_id 900016
+chr19	MoEx-1_0-st	psr	3207081	3207380	.	+	.	psr_id 113914509; transcript_cluster_id 7008295; exon_cluster_id 900016
+chr19	MoEx-1_0-st	probeset	3207091	3207260	.	+	.	probe_count 4; psr_id 113914509; number_independent_probes 4; probeset_id 4318690; probeset_type 1; transcript_cluster_id 7008295; exon_cluster_id 900016; number_nonoverlapping_probes 4; level "extended"; evidence "est:1"
+# 4318690 gi:26400614 est
+chr19	MoEx-1_0-st	probe	3207091	3207115	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4540333; psr_id 113914509; probeset_id 4318690; probe_x 1452; transcript_cluster_id 7008295; exon_cluster_id 900016; probe_y 1773; probe "cctctagactagatggacttggctt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3207140	3207164	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3268833; psr_id 113914509; probeset_id 4318690; probe_x 2272; transcript_cluster_id 7008295; exon_cluster_id 900016; probe_y 1276; probe "gaagtgaagttagtcccaagatacc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3207170	3207194	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3384693; psr_id 113914509; probeset_id 4318690; probe_x 372; transcript_cluster_id 7008295; exon_cluster_id 900016; probe_y 1322; probe "gacagtgctcttctcaaagccatgg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3207236	3207260	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4214752; psr_id 113914509; probeset_id 4318690; probe_x 991; transcript_cluster_id 7008295; exon_cluster_id 900016; probe_y 1646; probe "tgtgcacaaagggtctataccattc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3207966	3208384	.	+	.	transcript_cluster_id 7008294
+chr19	MoEx-1_0-st	exon_cluster	3207966	3208384	.	+	.	transcript_cluster_id 7008294; exon_cluster_id 900015
+chr19	MoEx-1_0-st	psr	3207966	3208384	.	+	.	psr_id 113914507; transcript_cluster_id 7008294; exon_cluster_id 900015
+chr19	MoEx-1_0-st	probeset	3208040	3208367	.	+	.	probe_count 4; psr_id 113914507; number_independent_probes 4; probeset_id 4911200; probeset_type 1; transcript_cluster_id 7008294; exon_cluster_id 900015; number_nonoverlapping_probes 4; level "extended"; evidence "est:1"
+# 4911200 gi:26901083 est
+chr19	MoEx-1_0-st	probe	3208040	3208064	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5593941; psr_id 113914507; probeset_id 4911200; probe_x 340; transcript_cluster_id 7008294; exon_cluster_id 900015; probe_y 2185; probe "tcagatacactagggatgaagtcag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3208149	3208173	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2114075; psr_id 113914507; probeset_id 4911200; probe_x 2074; transcript_cluster_id 7008294; exon_cluster_id 900015; probe_y 825; probe "tgagtagaaaccaactaatagtatt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3208210	3208234	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2599014; psr_id 113914507; probeset_id 4911200; probe_x 613; transcript_cluster_id 7008294; exon_cluster_id 900015; probe_y 1015; probe "tctggaaaaatagcatatggtgata"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3208343	3208367	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 39762; psr_id 113914507; probeset_id 4911200; probe_x 1361; transcript_cluster_id 7008294; exon_cluster_id 900015; probe_y 15; probe "tttaatatacagagtggatttcact"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3227312	3227728	.	+	.	transcript_cluster_id 6867562
+chr19	MoEx-1_0-st	exon_cluster	3227312	3227728	.	+	.	transcript_cluster_id 6867562; exon_cluster_id 418306
+chr19	MoEx-1_0-st	psr	3227312	3227728	.	+	.	psr_id 116391830; transcript_cluster_id 6867562; exon_cluster_id 418306
+chr19	MoEx-1_0-st	probeset	3227363	3227401	.	+	.	probe_count 4; psr_id 116391830; number_independent_probes 2; probeset_id 4843407; probeset_type 2; transcript_cluster_id 6867562; exon_cluster_id 418306; number_nonoverlapping_probes 1; level "extended"; evidence "est:1"
+# 4843407 gi:16113083 est
+chr19	MoEx-1_0-st	probe	3227363	3227387	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 3322325; psr_id 116391830; probeset_id 4843407; probe_x 2004; transcript_cluster_id 6867562; exon_cluster_id 418306; probe_y 1297; probe "gataaagtgggatccctccctgtct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3227368	3227392	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 1136342; psr_id 116391830; probeset_id 4843407; probe_x 2261; transcript_cluster_id 6867562; exon_cluster_id 418306; probe_y 443; probe "tcggagataaagtgggatccctccc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3227372	3227396	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5626583; psr_id 116391830; probeset_id 4843407; probe_x 2262; transcript_cluster_id 6867562; exon_cluster_id 418306; probe_y 2197; probe "tacgtcggagataaagtgggatccc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3227377	3227401	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 4438630; psr_id 116391830; probeset_id 4843407; probe_x 2149; transcript_cluster_id 6867562; exon_cluster_id 418306; probe_y 1733; probe "cactgtacgtcggagataaagtggg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	transcript_cluster	3249162	3250127	.	+	.	transcript_cluster_id 6867563
+chr19	MoEx-1_0-st	exon_cluster	3249162	3249272	.	+	.	transcript_cluster_id 6867563; exon_cluster_id 418307
+chr19	MoEx-1_0-st	psr	3249162	3249272	.	+	.	psr_id 116391837; transcript_cluster_id 6867563; exon_cluster_id 418307
+chr19	MoEx-1_0-st	probeset	3249186	3249257	.	+	.	probe_count 4; psr_id 116391837; number_independent_probes 2; probeset_id 5591070; probeset_type 3; transcript_cluster_id 6867563; exon_cluster_id 418307; number_nonoverlapping_probes 2; level "full"; evidence "genscan:1" "genscanSubopt:3"
+# 5591070 chr19_1.1 genscan
+# 5591070 chr19_1.2 genscanSubopt
+# 5591070 chr19_1.3 genscanSubopt
+# 5591070 chr19_1.4 genscanSubopt
+chr19	MoEx-1_0-st	probe	3249186	3249210	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 410483; psr_id 116391837; probeset_id 5591070; probe_x 882; transcript_cluster_id 6867563; exon_cluster_id 418307; probe_y 160; probe "tcatccagcgcccaaacacctgccg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249228	3249252	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3818469; psr_id 116391837; probeset_id 5591070; probe_x 1508; transcript_cluster_id 6867563; exon_cluster_id 418307; probe_y 1491; probe "agttgatgtaagtgttccaggcctg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249230	3249254	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 6368526; psr_id 116391837; probeset_id 5591070; probe_x 1805; transcript_cluster_id 6867563; exon_cluster_id 418307; probe_y 2487; probe "caagttgatgtaagtgttccaggcc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249233	3249257	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 198688; psr_id 116391837; probeset_id 5591070; probe_x 1567; transcript_cluster_id 6867563; exon_cluster_id 418307; probe_y 77; probe "ctccaagttgatgtaagtgttccag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3249282	3249311	.	+	.	transcript_cluster_id 6867563; exon_cluster_id 418308
+chr19	MoEx-1_0-st	psr	3249282	3249311	.	+	.	psr_id 116391839; transcript_cluster_id 6867563; exon_cluster_id 418308
+chr19	MoEx-1_0-st	probeset	3249282	3249310	.	+	.	probe_count 4; psr_id 116391839; number_independent_probes 1; probeset_id 5435601; probeset_type 3; transcript_cluster_id 6867563; exon_cluster_id 418308; number_nonoverlapping_probes 1; level "full"; evidence "genscan:1" "genscanSubopt:1"
+# 5435601 chr19_1.1 genscan
+# 5435601 chr19_1.4 genscanSubopt
+chr19	MoEx-1_0-st	probe	3249282	3249306	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 260303; psr_id 116391839; probeset_id 5435601; probe_x 1742; transcript_cluster_id 6867563; exon_cluster_id 418308; probe_y 101; probe "caaagcgttcataaatggtgtggac"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249283	3249307	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3780419; psr_id 116391839; probeset_id 5435601; probe_x 1858; transcript_cluster_id 6867563; exon_cluster_id 418308; probe_y 1476; probe "acaaagcgttcataaatggtgtgga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249284	3249308	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 472675; psr_id 116391839; probeset_id 5435601; probe_x 1634; transcript_cluster_id 6867563; exon_cluster_id 418308; probe_y 184; probe "cacaaagcgttcataaatggtgtgg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249286	3249310	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 298390; psr_id 116391839; probeset_id 5435601; probe_x 1429; transcript_cluster_id 6867563; exon_cluster_id 418308; probe_y 116; probe "agcacaaagcgttcataaatggtgt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3249342	3249638	.	+	.	transcript_cluster_id 6867563; exon_cluster_id 418309
+chr19	MoEx-1_0-st	psr	3249342	3249551	.	+	.	psr_id 116391841; transcript_cluster_id 6867563; exon_cluster_id 418309
+chr19	MoEx-1_0-st	probeset	3249359	3249388	.	+	.	probe_count 4; psr_id 116391841; number_independent_probes 1; probeset_id 4334836; probeset_type 1; transcript_cluster_id 6867563; exon_cluster_id 418309; number_nonoverlapping_probes 1; level "full"; evidence "genscan:1" "sgpGene:1"
+# 4334836 chr19_1.1 genscan
+# 4334836 chr19_1.1 sgpGene
+chr19	MoEx-1_0-st	probe	3249359	3249383	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3559396; psr_id 116391841; probeset_id 4334836; probe_x 995; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 1390; probe "agaatgagcaaacgaagtatgcttc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3249362	3249386	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1915856; psr_id 116391841; probeset_id 4334836; probe_x 975; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 748; probe "ccgagaatgagcaaacgaagtatgc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3249363	3249387	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3874105; psr_id 116391841; probeset_id 4334836; probe_x 824; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 1513; probe "tccgagaatgagcaaacgaagtatg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3249364	3249388	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3334441; psr_id 116391841; probeset_id 4334836; probe_x 1320; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 1302; probe "ttccgagaatgagcaaacgaagtat"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3249552	3249638	.	+	.	psr_id 116391842; transcript_cluster_id 6867563; exon_cluster_id 418309
+chr19	MoEx-1_0-st	probeset	3249605	3249633	.	+	.	probe_count 4; psr_id 116391842; number_independent_probes 1; probeset_id 5167407; probeset_type 3; transcript_cluster_id 6867563; exon_cluster_id 418309; number_nonoverlapping_probes 1; level "full"; evidence "genscan:1"
+# 5167407 chr19_1.1 genscan
+chr19	MoEx-1_0-st	probe	3249605	3249629	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3351091; psr_id 116391842; probeset_id 5167407; probe_x 50; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 1309; probe "tctgcattttctctcgatgctatct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249606	3249630	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 1653885; psr_id 116391842; probeset_id 5167407; probe_x 124; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 646; probe "atctgcattttctctcgatgctatc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249607	3249631	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 2959573; psr_id 116391842; probeset_id 5167407; probe_x 212; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 1156; probe "aatctgcattttctctcgatgctat"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249609	3249633	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 878330; psr_id 116391842; probeset_id 5167407; probe_x 249; transcript_cluster_id 6867563; exon_cluster_id 418309; probe_y 343; probe "ggaatctgcattttctctcgatgct"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3249774	3250127	.	+	.	transcript_cluster_id 6867563; exon_cluster_id 418310
+chr19	MoEx-1_0-st	psr	3249774	3250127	.	+	.	psr_id 116391844; transcript_cluster_id 6867563; exon_cluster_id 418310
+chr19	MoEx-1_0-st	probeset	3249984	3250010	.	+	.	probe_count 3; psr_id 116391844; number_independent_probes 1; probeset_id 5496126; probeset_type 2; transcript_cluster_id 6867563; exon_cluster_id 418310; number_nonoverlapping_probes 1; level "full"; evidence "geneid:1" "sgpGene:1"
+# 5496126 chr19_1.1 sgpGene
+# 5496126 chr19_1.1 geneid
+chr19	MoEx-1_0-st	probe	3249984	3250008	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 1069903; psr_id 116391844; probeset_id 5496126; probe_x 2382; transcript_cluster_id 6867563; exon_cluster_id 418310; probe_y 417; probe "gatatttccctagggaagttgtcaa"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249985	3250009	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 3373836; psr_id 116391844; probeset_id 5496126; probe_x 2315; transcript_cluster_id 6867563; exon_cluster_id 418310; probe_y 1317; probe "ggatatttccctagggaagttgtca"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3249986	3250010	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5268138; psr_id 116391844; probeset_id 5496126; probe_x 2217; transcript_cluster_id 6867563; exon_cluster_id 418310; probe_y 2057; probe "tggatatttccctagggaagttgtc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	transcript_cluster	3265194	3265539	.	+	.	transcript_cluster_id 6867564
+chr19	MoEx-1_0-st	exon_cluster	3265194	3265539	.	+	.	transcript_cluster_id 6867564; exon_cluster_id 418311
+chr19	MoEx-1_0-st	psr	3265194	3265539	.	+	.	psr_id 116391847; transcript_cluster_id 6867564; exon_cluster_id 418311
+chr19	MoEx-1_0-st	probeset	3265198	3265507	.	+	.	probe_count 4; psr_id 116391847; number_independent_probes 4; probeset_id 5278867; probeset_type 1; transcript_cluster_id 6867564; exon_cluster_id 418311; number_nonoverlapping_probes 4; level "extended"; evidence "est:1"
+# 5278867 gi:5496885 est
+chr19	MoEx-1_0-st	probe	3265198	3265222	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5761761; psr_id 116391847; probeset_id 5278867; probe_x 1760; transcript_cluster_id 6867564; exon_cluster_id 418311; probe_y 2250; probe "gagtttgtggctagcaaggagtccc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3265228	3265252	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2049872; psr_id 116391847; probeset_id 5278867; probe_x 1871; transcript_cluster_id 6867564; exon_cluster_id 418311; probe_y 800; probe "cggacagagcactttagggctacga"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3265272	3265296	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4088511; psr_id 116391847; probeset_id 5278867; probe_x 190; transcript_cluster_id 6867564; exon_cluster_id 418311; probe_y 1597; probe "acagctccagtgcaaatggctctga"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3265483	3265507	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4808570; psr_id 116391847; probeset_id 5278867; probe_x 889; transcript_cluster_id 6867564; exon_cluster_id 418311; probe_y 1878; probe "gcctttgaatacctggatgacatcg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	transcript_cluster	3282921	3295719	.	+	.	transcript_cluster_id 6867565
+chr19	MoEx-1_0-st	exon_cluster	3282921	3283427	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418312
+chr19	MoEx-1_0-st	psr	3282921	3283071	.	+	.	psr_id 116391850; transcript_cluster_id 6867565; exon_cluster_id 418312
+chr19	MoEx-1_0-st	probeset	3282964	3283068	.	+	.	probe_count 4; psr_id 116391850; number_independent_probes 4; probeset_id 5057288; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418312; number_nonoverlapping_probes 3; level "extended"; evidence "est:2"
+# 5057288 gi:26463976 est
+# 5057288 gi:12023325 est
+chr19	MoEx-1_0-st	probe	3282964	3282988	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 234122; psr_id 116391850; probeset_id 5057288; probe_x 1161; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 91; probe "ggaaacagggatcctactgcaatca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3282994	3283018	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2779780; psr_id 116391850; probeset_id 5057288; probe_x 2179; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 1085; probe "cacaaactcagtagggaacacctgg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3283022	3283046	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4096536; psr_id 116391850; probeset_id 5057288; probe_x 535; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 1600; probe "gaagcagcgcgaaccttgtgcgtca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3283044	3283068	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4211020; psr_id 116391850; probeset_id 5057288; probe_x 2379; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 1644; probe "tccacagtcccaaccggaagcggaa"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3283072	3283171	.	+	.	psr_id 116391852; transcript_cluster_id 6867565; exon_cluster_id 418312
+chr19	MoEx-1_0-st	probeset	3283088	3283154	.	+	.	probe_count 4; psr_id 116391852; number_independent_probes 2; probeset_id 4876619; probeset_type 2; transcript_cluster_id 6867565; exon_cluster_id 418312; number_nonoverlapping_probes 2; level "core"; cds 1; evidence "ensGene:2" "est:44" "fl:2" "human_fl:5" "mrna:3"
+# 4876619 gi:26463976 est
+# 4876619 gi:12023325 est
+# 4876619 gi:26131091 est
+# 4876619 gi:26523874 est
+# 4876619 gi:31652221 human_fl
+# 4876619 gi:31652223 human_fl
+# 4876619 gi:31652225 human_fl
+# 4876619 gi:31652227 human_fl
+# 4876619 ENSMUST00000025745 ensGene
+# 4876619 gi:31982031 fl
+# 4876619 gi:12861417 mrna
+# 4876619 gi:27137557 est
+# 4876619 gi:39714936 est
+# 4876619 gi:26532758 est
+# 4876619 gi:15660367 est
+# 4876619 gi:12849754 mrna
+# 4876619 gi:26196149 est
+# 4876619 gi:27123161 est
+# 4876619 gi:26162956 est
+# 4876619 ENSMUST00000025743 ensGene
+# 4876619 gi:12833856 mrna
+# 4876619 gi:15566938 est
+# 4876619 gi:26159711 est
+# 4876619 gi:26152197 est
+# 4876619 gi:26147951 est
+# 4876619 gi:27114674 est
+# 4876619 gi:1807056 est
+# 4876619 gi:26061409 est
+# 4876619 gi:26470637 est
+# 4876619 gi:26437623 est
+# 4876619 gi:38495086 est
+# 4876619 gi:22493164 est
+# 4876619 gi:28222163 est
+# 4876619 gi:10078313 est
+# 4876619 gi:26443359 est
+# 4876619 gi:3159175 est
+# 4876619 gi:8185364 est
+# 4876619 gi:38558735 est
+# 4876619 gi:37602826 est
+# 4876619 gi:2524089 est
+# 4876619 gi:20380375 fl
+# 4876619 gi:9907334 est
+# 4876619 gi:1494404 est
+# 4876619 gi:47454728 est
+# 4876619 gi:2456903 est
+# 4876619 gi:1865620 est
+# 4876619 gi:27793921 est
+# 4876619 gi:2067495 est
+# 4876619 gi:1882321 est
+# 4876619 gi:1551103 est
+# 4876619 gi:2861349 est
+# 4876619 gi:32967618 human_fl
+# 4876619 gi:14296392 est
+# 4876619 gi:1385409 est
+# 4876619 gi:9816847 est
+# 4876619 gi:2068132 est
+chr19	MoEx-1_0-st	probe	3283088	3283112	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 4031577; psr_id 116391852; probeset_id 4876619; probe_x 2136; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 1574; probe "aaggcgcccggcaatgccgaggccg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3283127	3283151	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5020507; psr_id 116391852; probeset_id 4876619; probe_x 346; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 1961; probe "gccaagatgctacggctacacacag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3283128	3283152	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 2990230; psr_id 116391852; probeset_id 4876619; probe_x 149; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 1168; probe "tgccaagatgctacggctacacaca"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3283130	3283154	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 6548631; psr_id 116391852; probeset_id 4876619; probe_x 150; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 2558; probe "gatgccaagatgctacggctacaca"; cross_hybridizes 1
+chr19	MoEx-1_0-st	psr	3283172	3283427	.	+	.	psr_id 116391853; transcript_cluster_id 6867565; exon_cluster_id 418312
+chr19	MoEx-1_0-st	probeset	3283229	3283405	.	+	.	probe_count 4; psr_id 116391853; number_independent_probes 4; probeset_id 4505822; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418312; number_nonoverlapping_probes 4; level "extended"; evidence "est:1"
+# 4505822 gi:26470637 est
+chr19	MoEx-1_0-st	probe	3283229	3283253	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5823039; psr_id 116391853; probeset_id 4505822; probe_x 1598; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 2274; probe "gccaaggtggactcagacacacggg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3283296	3283320	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1921917; psr_id 116391853; probeset_id 4505822; probe_x 1916; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 750; probe "tcatcccaggttctcgtactccaaa"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3283330	3283354	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3951942; psr_id 116391853; probeset_id 4505822; probe_x 1861; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 1543; probe "cagtattaagcaatgaacggaagga"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3283381	3283405	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 147662; psr_id 116391853; probeset_id 4505822; probe_x 1741; transcript_cluster_id 6867565; exon_cluster_id 418312; probe_y 57; probe "catttgtgtccctgtactataggac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3284512	3284817	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418313
+chr19	MoEx-1_0-st	psr	3284512	3284759	.	+	.	psr_id 116391855; transcript_cluster_id 6867565; exon_cluster_id 418313
+chr19	MoEx-1_0-st	probeset	3284593	3284741	.	+	.	probe_count 4; psr_id 116391855; number_independent_probes 4; probeset_id 5068571; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418313; number_nonoverlapping_probes 3; level "extended"; evidence "est:17"
+# 5068571 gi:21462710 est
+# 5068571 gi:25116474 est
+# 5068571 gi:25115690 est
+# 5068571 gi:25115296 est
+# 5068571 gi:25115256 est
+# 5068571 gi:25117409 est
+# 5068571 gi:47428978 est
+# 5068571 gi:47429043 est
+# 5068571 gi:47429154 est
+# 5068571 gi:47429741 est
+# 5068571 gi:47429679 est
+# 5068571 gi:47427893 est
+# 5068571 gi:25114963 est
+# 5068571 gi:47428143 est
+# 5068571 gi:47427470 est
+# 5068571 gi:47426817 est
+# 5068571 gi:47427273 est
+chr19	MoEx-1_0-st	probe	3284593	3284617	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1224530; psr_id 116391855; probeset_id 5068571; probe_x 849; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 478; probe "tgctatcccactgtaagaacctgag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3284656	3284680	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6531569; psr_id 116391855; probeset_id 5068571; probe_x 1008; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 2551; probe "tattacaacttgtctgtgaacagtc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3284698	3284722	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1948330; psr_id 116391855; probeset_id 5068571; probe_x 169; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 761; probe "gacatgtaaagatctgttgctagca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3284717	3284741	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4555060; psr_id 116391855; probeset_id 5068571; probe_x 819; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 1779; probe "ggtgggtagttactctgatgacatg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3284760	3284817	.	+	.	psr_id 116391856; transcript_cluster_id 6867565; exon_cluster_id 418313
+chr19	MoEx-1_0-st	probeset	3284766	3284796	.	+	.	probe_count 4; psr_id 116391856; number_independent_probes 1; probeset_id 4663607; probeset_type 2; transcript_cluster_id 6867565; exon_cluster_id 418313; number_nonoverlapping_probes 1; level "core"; cds 1; evidence "ensGene:2" "est:69" "fl:2" "human_fl:5" "mrna:3" "twinscan:1"
+# 4663607 gi:26463976 est
+# 4663607 gi:12023325 est
+# 4663607 gi:26131091 est
+# 4663607 gi:26523874 est
+# 4663607 gi:31652221 human_fl
+# 4663607 gi:31652223 human_fl
+# 4663607 gi:31652225 human_fl
+# 4663607 gi:31652227 human_fl
+# 4663607 ENSMUST00000025745 ensGene
+# 4663607 gi:31982031 fl
+# 4663607 gi:12861417 mrna
+# 4663607 gi:27137557 est
+# 4663607 gi:39714936 est
+# 4663607 gi:26532758 est
+# 4663607 gi:15660367 est
+# 4663607 gi:12849754 mrna
+# 4663607 gi:26196149 est
+# 4663607 gi:27123161 est
+# 4663607 gi:26162956 est
+# 4663607 ENSMUST00000025743 ensGene
+# 4663607 gi:12833856 mrna
+# 4663607 gi:15566938 est
+# 4663607 gi:26159711 est
+# 4663607 gi:26152197 est
+# 4663607 gi:26147951 est
+# 4663607 gi:27114674 est
+# 4663607 gi:1807056 est
+# 4663607 gi:26061409 est
+# 4663607 gi:26437623 est
+# 4663607 gi:38495086 est
+# 4663607 gi:22493164 est
+# 4663607 gi:28222163 est
+# 4663607 gi:10078313 est
+# 4663607 gi:26443359 est
+# 4663607 gi:3159175 est
+# 4663607 gi:8185364 est
+# 4663607 gi:38558735 est
+# 4663607 gi:37602826 est
+# 4663607 gi:2524089 est
+# 4663607 gi:20380375 fl
+# 4663607 gi:9907334 est
+# 4663607 gi:1494404 est
+# 4663607 gi:47454728 est
+# 4663607 gi:2456903 est
+# 4663607 gi:1865620 est
+# 4663607 gi:27793921 est
+# 4663607 gi:2067495 est
+# 4663607 gi:1882321 est
+# 4663607 gi:1551103 est
+# 4663607 gi:2861349 est
+# 4663607 gi:32967618 human_fl
+# 4663607 gi:14296392 est
+# 4663607 gi:1385409 est
+# 4663607 gi:9816847 est
+# 4663607 gi:2068132 est
+# 4663607 gi:40007152 est
+# 4663607 gi:15169927 est
+# 4663607 gi:15174286 est
+# 4663607 gi:1375664 est
+# 4663607 gi:41347907 est
+# 4663607 gi:2247918 est
+# 4663607 gi:1713554 est
+# 4663607 gi:11270431 est
+# 4663607 gi:5550307 est
+# 4663607 gi:21462710 est
+# 4663607 gi:25116474 est
+# 4663607 gi:25115690 est
+# 4663607 gi:25115296 est
+# 4663607 gi:25115256 est
+# 4663607 gi:25117409 est
+# 4663607 gi:47428978 est
+# 4663607 gi:47429043 est
+# 4663607 gi:47429154 est
+# 4663607 gi:47429741 est
+# 4663607 gi:47429679 est
+# 4663607 gi:47427893 est
+# 4663607 gi:25114963 est
+# 4663607 gi:47428143 est
+# 4663607 gi:47427470 est
+# 4663607 gi:47426817 est
+# 4663607 gi:47427273 est
+# 4663607 chr19.4.003.a twinscan
+chr19	MoEx-1_0-st	probe	3284766	3284790	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 16575; psr_id 116391856; probeset_id 4663607; probe_x 1214; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 6; probe "ttgaaccttcgagaagcagaccaga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3284768	3284792	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 3473180; psr_id 116391856; probeset_id 4663607; probe_x 1819; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 1356; probe "aattgaaccttcgagaagcagacca"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3284770	3284794	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 1554976; psr_id 116391856; probeset_id 4663607; probe_x 1055; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 607; probe "tgaattgaaccttcgagaagcagac"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3284772	3284796	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 4977505; psr_id 116391856; probeset_id 4663607; probe_x 864; transcript_cluster_id 6867565; exon_cluster_id 418313; probe_y 1944; probe "tgtgaattgaaccttcgagaagcag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3284834	3285619	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418314
+chr19	MoEx-1_0-st	psr	3284834	3285309	.	+	.	psr_id 116391858; transcript_cluster_id 6867565; exon_cluster_id 418314
+chr19	MoEx-1_0-st	probeset	3285032	3285152	.	+	.	probe_count 4; psr_id 116391858; number_independent_probes 4; probeset_id 5552426; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418314; number_nonoverlapping_probes 3; level "extended"; evidence "est:11"
+# 5552426 gi:22493164 est
+# 5552426 gi:47454728 est
+# 5552426 gi:25115690 est
+# 5552426 gi:47428978 est
+# 5552426 gi:47429043 est
+# 5552426 gi:47429154 est
+# 5552426 gi:47429679 est
+# 5552426 gi:47427893 est
+# 5552426 gi:47428143 est
+# 5552426 gi:47427470 est
+# 5552426 gi:22827483 est
+chr19	MoEx-1_0-st	probe	3285032	3285056	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3269970; psr_id 116391858; probeset_id 5552426; probe_x 849; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 1277; probe "gttggccaaacgtgctatcactgag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3285048	3285072	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6291880; psr_id 116391858; probeset_id 5552426; probe_x 1959; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 2457; probe "ccaaggcctcaagtatgttggccaa"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3285069	3285093	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5846437; psr_id 116391858; probeset_id 5552426; probe_x 1956; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 2283; probe "catttatgctgaaggaggaacccaa"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3285128	3285152	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1316411; psr_id 116391858; probeset_id 5552426; probe_x 570; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 514; probe "cacacatgcattacttctgttggga"; cross_hybridizes 0
+chr19	MoEx-1_0-st	psr	3285310	3285395	.	+	.	psr_id 116391859; transcript_cluster_id 6867565; exon_cluster_id 418314
+chr19	MoEx-1_0-st	probeset	3285310	3285382	.	+	.	probe_count 4; psr_id 116391859; number_independent_probes 3; probeset_id 4932371; probeset_type 3; transcript_cluster_id 6867565; exon_cluster_id 418314; number_nonoverlapping_probes 2; level "core"; cds 1; evidence "ensGene:2" "est:51" "fl:2" "human_fl:4" "mrna:3" "twinscan:1"
+# 4932371 gi:26463976 est
+# 4932371 gi:12023325 est
+# 4932371 gi:26131091 est
+# 4932371 gi:26523874 est
+# 4932371 gi:31652221 human_fl
+# 4932371 gi:31652225 human_fl
+# 4932371 gi:31652227 human_fl
+# 4932371 ENSMUST00000025745 ensGene
+# 4932371 gi:31982031 fl
+# 4932371 gi:12861417 mrna
+# 4932371 gi:27137557 est
+# 4932371 gi:39714936 est
+# 4932371 gi:26532758 est
+# 4932371 gi:15660367 est
+# 4932371 gi:12849754 mrna
+# 4932371 gi:26196149 est
+# 4932371 gi:27123161 est
+# 4932371 gi:26162956 est
+# 4932371 ENSMUST00000025743 ensGene
+# 4932371 gi:12833856 mrna
+# 4932371 gi:15566938 est
+# 4932371 gi:26159711 est
+# 4932371 gi:26152197 est
+# 4932371 gi:26147951 est
+# 4932371 gi:27114674 est
+# 4932371 gi:1807056 est
+# 4932371 gi:26061409 est
+# 4932371 gi:26437623 est
+# 4932371 gi:38495086 est
+# 4932371 gi:28222163 est
+# 4932371 gi:10078313 est
+# 4932371 gi:26443359 est
+# 4932371 gi:3159175 est
+# 4932371 gi:8185364 est
+# 4932371 gi:38558735 est
+# 4932371 gi:37602826 est
+# 4932371 gi:2524089 est
+# 4932371 gi:20380375 fl
+# 4932371 gi:9907334 est
+# 4932371 gi:1494404 est
+# 4932371 gi:2456903 est
+# 4932371 gi:1865620 est
+# 4932371 gi:27793921 est
+# 4932371 gi:2067495 est
+# 4932371 gi:1882321 est
+# 4932371 gi:1551103 est
+# 4932371 gi:2861349 est
+# 4932371 gi:32967618 human_fl
+# 4932371 gi:14296392 est
+# 4932371 gi:1385409 est
+# 4932371 gi:9816847 est
+# 4932371 gi:2068132 est
+# 4932371 gi:40007152 est
+# 4932371 gi:15169927 est
+# 4932371 gi:15174286 est
+# 4932371 gi:1375664 est
+# 4932371 gi:41347907 est
+# 4932371 gi:1713554 est
+# 4932371 gi:11270431 est
+# 4932371 gi:5550307 est
+# 4932371 chr19.4.003.a twinscan
+# 4932371 gi:22827483 est
+# 4932371 gi:17746057 est
+chr19	MoEx-1_0-st	probe	3285310	3285334	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 5548839; psr_id 116391859; probeset_id 4932371; probe_x 1318; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 2167; probe "gctcagggaggtcttaggaacatat"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3285328	3285352	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3500434; psr_id 116391859; probeset_id 4932371; probe_x 913; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 1367; probe "ttcttgccagggtggtgagctcagg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3285348	3285372	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 2969458; psr_id 116391859; probeset_id 4932371; probe_x 2417; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 1159; probe "acagggtccggcagaaccacttctt"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3285358	3285382	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 2638677; psr_id 116391859; probeset_id 4932371; probe_x 1876; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 1030; probe "cgtctcttcaacagggtccggcaga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	psr	3285396	3285619	.	+	.	psr_id 116391860; transcript_cluster_id 6867565; exon_cluster_id 418314
+chr19	MoEx-1_0-st	probeset	3285425	3285607	.	+	.	probe_count 4; psr_id 116391860; number_independent_probes 4; probeset_id 5303182; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418314; number_nonoverlapping_probes 3; level "extended"; evidence "est:1"
+# 5303182 gi:22827483 est
+chr19	MoEx-1_0-st	probe	3285425	3285449	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 669108; psr_id 116391860; probeset_id 5303182; probe_x 947; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 261; probe "tctcaagtgctagggctacaaaggc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3285549	3285573	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3423438; psr_id 116391860; probeset_id 5303182; probe_x 717; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 1337; probe "cctgtgggaatggacactcagcgct"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3285565	3285589	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 948410; psr_id 116391860; probeset_id 5303182; probe_x 1209; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 370; probe "caatgtacctcagtgacctgtggga"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3285583	3285607	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3417796; psr_id 116391860; probeset_id 5303182; probe_x 195; transcript_cluster_id 6867565; exon_cluster_id 418314; probe_y 1335; probe "tgctgccttgccctgtggcaatgta"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3286074	3286353	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418315
+chr19	MoEx-1_0-st	psr	3286074	3286353	.	+	.	psr_id 116391864; transcript_cluster_id 6867565; exon_cluster_id 418315
+chr19	MoEx-1_0-st	probeset	3286092	3286347	.	+	.	probe_count 4; psr_id 116391864; number_independent_probes 4; probeset_id 4309269; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418315; number_nonoverlapping_probes 4; level "extended"; bounded 1; evidence "est:2"
+# 4309269 gi:31494397 est
+# 4309269 gi:31496156 est
+chr19	MoEx-1_0-st	probe	3286092	3286116	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1140462; psr_id 116391864; probeset_id 4309269; probe_x 1261; transcript_cluster_id 6867565; exon_cluster_id 418315; probe_y 445; probe "gtccagataggacacgcagggccta"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286185	3286209	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4638828; psr_id 116391864; probeset_id 4309269; probe_x 107; transcript_cluster_id 6867565; exon_cluster_id 418315; probe_y 1812; probe "tcccagtgaaggctccagatgatgc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286227	3286251	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5709921; psr_id 116391864; probeset_id 4309269; probe_x 1120; transcript_cluster_id 6867565; exon_cluster_id 418315; probe_y 2230; probe "tcctgctctggataaggccaaggcc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286323	3286347	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4024598; psr_id 116391864; probeset_id 4309269; probe_x 277; transcript_cluster_id 6867565; exon_cluster_id 418315; probe_y 1572; probe "tactctggctcatgtcacagtcctt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3286421	3286669	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418316
+chr19	MoEx-1_0-st	psr	3286421	3286669	.	+	.	psr_id 116391868; transcript_cluster_id 6867565; exon_cluster_id 418316
+chr19	MoEx-1_0-st	probeset	3286506	3286661	.	+	.	probe_count 4; psr_id 116391868; number_independent_probes 4; probeset_id 5441712; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418316; number_nonoverlapping_probes 3; level "extended"; bounded 1; evidence "est:18"
+# 5441712 gi:31494397 est
+# 5441712 gi:31496156 est
+# 5441712 gi:31495337 est
+# 5441712 gi:31494177 est
+# 5441712 gi:31494776 est
+# 5441712 gi:31494427 est
+# 5441712 gi:26967255 est
+# 5441712 gi:32297619 est
+# 5441712 gi:2652658 est
+# 5441712 gi:26976855 est
+# 5441712 gi:4450386 est
+# 5441712 gi:21462709 est
+# 5441712 gi:9113717 est
+# 5441712 gi:9002663 est
+# 5441712 gi:9616227 est
+# 5441712 gi:9002060 est
+# 5441712 gi:6391177 est
+# 5441712 gi:9311611 est
+chr19	MoEx-1_0-st	probe	3286506	3286530	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3579686; psr_id 116391868; probeset_id 5441712; probe_x 805; transcript_cluster_id 6867565; exon_cluster_id 418316; probe_y 1398; probe "gagaggacggtctttctgcagtctg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286540	3286564	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5192415; psr_id 116391868; probeset_id 5441712; probe_x 734; transcript_cluster_id 6867565; exon_cluster_id 418316; probe_y 2028; probe "catcccagggcaagaagtgtgcagt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286563	3286587	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3405324; psr_id 116391868; probeset_id 5441712; probe_x 523; transcript_cluster_id 6867565; exon_cluster_id 418316; probe_y 1330; probe "ggcagtgagtctagcctggactaca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286637	3286661	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2018319; psr_id 116391868; probeset_id 5441712; probe_x 1038; transcript_cluster_id 6867565; exon_cluster_id 418316; probe_y 788; probe "ttaagacccagtgcacaagcagaac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3286771	3286874	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418317
+chr19	MoEx-1_0-st	psr	3286771	3286874	.	+	.	psr_id 116391870; transcript_cluster_id 6867565; exon_cluster_id 418317
+chr19	MoEx-1_0-st	probeset	3286774	3286863	.	+	.	probe_count 4; psr_id 116391870; number_independent_probes 3; probeset_id 4889529; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418317; number_nonoverlapping_probes 3; level "extended"; evidence "est:1"
+# 4889529 gi:14611708 est
+chr19	MoEx-1_0-st	probe	3286774	3286798	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2242170; psr_id 116391870; probeset_id 4889529; probe_x 2169; transcript_cluster_id 6867565; exon_cluster_id 418317; probe_y 875; probe "cctgcttacccagccagtagggagg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286808	3286832	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6043017; psr_id 116391870; probeset_id 4889529; probe_x 1416; transcript_cluster_id 6867565; exon_cluster_id 418317; probe_y 2360; probe "cccttgggaggactgctcctgcagt"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286811	3286835	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2189778; psr_id 116391870; probeset_id 4889529; probe_x 977; transcript_cluster_id 6867565; exon_cluster_id 418317; probe_y 855; probe "gctcccttgggaggactgctcctgc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3286839	3286863	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 1720450; psr_id 116391870; probeset_id 4889529; probe_x 129; transcript_cluster_id 6867565; exon_cluster_id 418317; probe_y 672; probe "tgggtggcaatcactgcacaggcac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3286877	3287038	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418318
+chr19	MoEx-1_0-st	psr	3286877	3287038	.	+	.	psr_id 116391872; transcript_cluster_id 6867565; exon_cluster_id 418318
+chr19	MoEx-1_0-st	probeset	3286926	3286992	.	+	.	probe_count 4; psr_id 116391872; number_independent_probes 4; probeset_id 5337576; probeset_type 2; transcript_cluster_id 6867565; exon_cluster_id 418318; number_nonoverlapping_probes 2; level "core"; cds 1; evidence "ensGene:2" "est:51" "fl:2" "geneid:1" "genscan:1" "genscanSubopt:1" "human_fl:5" "mrna:3" "sgpGene:1" "twinscan:1"
+# 5337576 gi:12023325 est
+# 5337576 gi:31652221 human_fl
+# 5337576 gi:31652223 human_fl
+# 5337576 gi:31652225 human_fl
+# 5337576 gi:31652227 human_fl
+# 5337576 ENSMUST00000025745 ensGene
+# 5337576 gi:31982031 fl
+# 5337576 gi:12861417 mrna
+# 5337576 gi:27137557 est
+# 5337576 gi:15660367 est
+# 5337576 gi:12849754 mrna
+# 5337576 gi:26196149 est
+# 5337576 gi:27123161 est
+# 5337576 ENSMUST00000025743 ensGene
+# 5337576 gi:12833856 mrna
+# 5337576 gi:15566938 est
+# 5337576 gi:27114674 est
+# 5337576 gi:1807056 est
+# 5337576 gi:26061409 est
+# 5337576 gi:26437623 est
+# 5337576 gi:38495086 est
+# 5337576 gi:28222163 est
+# 5337576 gi:10078313 est
+# 5337576 gi:26443359 est
+# 5337576 gi:8185364 est
+# 5337576 gi:38558735 est
+# 5337576 gi:37602826 est
+# 5337576 gi:2524089 est
+# 5337576 gi:20380375 fl
+# 5337576 gi:9907334 est
+# 5337576 gi:1494404 est
+# 5337576 gi:2456903 est
+# 5337576 gi:1865620 est
+# 5337576 gi:27793921 est
+# 5337576 gi:2067495 est
+# 5337576 gi:1882321 est
+# 5337576 gi:1551103 est
+# 5337576 gi:2861349 est
+# 5337576 gi:32967618 human_fl
+# 5337576 gi:14296392 est
+# 5337576 gi:9816847 est
+# 5337576 gi:2068132 est
+# 5337576 gi:15169927 est
+# 5337576 gi:15174286 est
+# 5337576 gi:1375664 est
+# 5337576 gi:41347907 est
+# 5337576 gi:1713554 est
+# 5337576 gi:11270431 est
+# 5337576 gi:5550307 est
+# 5337576 chr19.4.003.a twinscan
+# 5337576 gi:17746057 est
+# 5337576 chr19_4.1 geneid
+# 5337576 chr19_4.1 sgpGene
+# 5337576 chr19_1.3 genscan
+# 5337576 gi:14611708 est
+# 5337576 gi:29358006 est
+# 5337576 gi:13955861 est
+# 5337576 gi:15646535 est
+# 5337576 gi:8186127 est
+# 5337576 gi:10751583 est
+# 5337576 chr19_1.17 genscanSubopt
+# 5337576 gi:12022484 est
+# 5337576 gi:21894569 est
+# 5337576 gi:22864265 est
+# 5337576 gi:9914299 est
+# 5337576 gi:1902021 est
+# 5337576 gi:9911363 est
+# 5337576 gi:10599388 est
+chr19	MoEx-1_0-st	probe	3286926	3286950	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5714505; psr_id 116391872; probeset_id 5337576; probe_x 584; transcript_cluster_id 6867565; exon_cluster_id 418318; probe_y 2232; probe "ctggcaaagtgcacgacagcaaaga"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3286942	3286966	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 3406330; psr_id 116391872; probeset_id 5337576; probe_x 1529; transcript_cluster_id 6867565; exon_cluster_id 418318; probe_y 1330; probe "caccttccattggtggctggcaaag"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3286955	3286979	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 5774274; psr_id 116391872; probeset_id 5337576; probe_x 1473; transcript_cluster_id 6867565; exon_cluster_id 418318; probe_y 2255; probe "ggtcctctgcggtcaccttccattg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3286968	3286992	.	+	.	self_cross_hybridizes 0; probe_type 2; probe_id 2535307; psr_id 116391872; probeset_id 5337576; probe_x 906; transcript_cluster_id 6867565; exon_cluster_id 418318; probe_y 990; probe "tcaattagaatcaggtcctctgcgg"; cross_hybridizes 1
+chr19	MoEx-1_0-st	exon_cluster	3287044	3287345	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418319
+chr19	MoEx-1_0-st	psr	3287044	3287345	.	+	.	psr_id 116391874; transcript_cluster_id 6867565; exon_cluster_id 418319
+chr19	MoEx-1_0-st	probeset	3287047	3287331	.	+	.	probe_count 4; psr_id 116391874; number_independent_probes 4; probeset_id 4461731; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418319; number_nonoverlapping_probes 4; level "extended"; evidence "est:1"
+# 4461731 gi:14611708 est
+chr19	MoEx-1_0-st	probe	3287047	3287071	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2069970; psr_id 116391874; probeset_id 4461731; probe_x 1489; transcript_cluster_id 6867565; exon_cluster_id 418319; probe_y 808; probe "gtccctgagtccacaacacaacgtg"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287115	3287139	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4953357; psr_id 116391874; probeset_id 4461731; probe_x 2316; transcript_cluster_id 6867565; exon_cluster_id 418319; probe_y 1934; probe "ccgctggccgtgagtccttttttca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287214	3287238	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5071416; psr_id 116391874; probeset_id 4461731; probe_x 55; transcript_cluster_id 6867565; exon_cluster_id 418319; probe_y 1981; probe "tgatcgaggatatggagacacagct"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287307	3287331	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5017730; psr_id 116391874; probeset_id 4461731; probe_x 129; transcript_cluster_id 6867565; exon_cluster_id 418319; probe_y 1960; probe "cacatctgtattatgctgctgggac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3287391	3287506	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418320
+chr19	MoEx-1_0-st	psr	3287391	3287506	.	+	.	psr_id 116391876; transcript_cluster_id 6867565; exon_cluster_id 418320
+chr19	MoEx-1_0-st	probeset	3287397	3287501	.	+	.	probe_count 4; psr_id 116391876; number_independent_probes 3; probeset_id 5167119; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418320; number_nonoverlapping_probes 2; level "extended"; evidence "est:1"
+# 5167119 gi:14611708 est
+chr19	MoEx-1_0-st	probe	3287397	3287421	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3126268; psr_id 116391876; probeset_id 5167119; probe_x 507; transcript_cluster_id 6867565; exon_cluster_id 418320; probe_y 1221; probe "gctttggcggccatcagtgctacca"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287405	3287429	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4036119; psr_id 116391876; probeset_id 5167119; probe_x 1558; transcript_cluster_id 6867565; exon_cluster_id 418320; probe_y 1576; probe "actaaactgctttggcggccatcag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287454	3287478	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 4486859; psr_id 116391876; probeset_id 5167119; probe_x 1738; transcript_cluster_id 6867565; exon_cluster_id 418320; probe_y 1752; probe "tagcctcgggtacaatacaggagac"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287477	3287501	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 2809577; psr_id 116391876; probeset_id 5167119; probe_x 1256; transcript_cluster_id 6867565; exon_cluster_id 418320; probe_y 1097; probe "ggtcttcacggcaagtctgaggcta"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3287703	3287830	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418321
+chr19	MoEx-1_0-st	psr	3287703	3287755	.	+	.	psr_id 116391878; transcript_cluster_id 6867565; exon_cluster_id 418321
+chr19	MoEx-1_0-st	probeset	3287703	3287745	.	+	.	probe_count 4; psr_id 116391878; number_independent_probes 2; probeset_id 4526594; probeset_type 3; transcript_cluster_id 6867565; exon_cluster_id 418321; number_nonoverlapping_probes 1; level "core"; cds 1; evidence "ensGene:2" "est:67" "fl:2" "geneid:1" "genscan:1" "human_fl:5" "mrna:3" "sgpGene:1" "twinscan:1"
+# 4526594 gi:12023325 est
+# 4526594 gi:31652221 human_fl
+# 4526594 gi:31652223 human_fl
+# 4526594 gi:31652225 human_fl
+# 4526594 gi:31652227 human_fl
+# 4526594 ENSMUST00000025745 ensGene
+# 4526594 gi:31982031 fl
+# 4526594 gi:12861417 mrna
+# 4526594 gi:27137557 est
+# 4526594 gi:15660367 est
+# 4526594 gi:12849754 mrna
+# 4526594 gi:27123161 est
+# 4526594 ENSMUST00000025743 ensGene
+# 4526594 gi:12833856 mrna
+# 4526594 gi:15566938 est
+# 4526594 gi:27114674 est
+# 4526594 gi:1807056 est
+# 4526594 gi:26437623 est
+# 4526594 gi:38495086 est
+# 4526594 gi:28222163 est
+# 4526594 gi:8185364 est
+# 4526594 gi:38558735 est
+# 4526594 gi:37602826 est
+# 4526594 gi:2524089 est
+# 4526594 gi:20380375 fl
+# 4526594 gi:9907334 est
+# 4526594 gi:1494404 est
+# 4526594 gi:2456903 est
+# 4526594 gi:1865620 est
+# 4526594 gi:27793921 est
+# 4526594 gi:1882321 est
+# 4526594 gi:1551103 est
+# 4526594 gi:2861349 est
+# 4526594 gi:32967618 human_fl
+# 4526594 gi:14296392 est
+# 4526594 gi:9816847 est
+# 4526594 gi:2068132 est
+# 4526594 gi:15169927 est
+# 4526594 gi:15174286 est
+# 4526594 gi:1375664 est
+# 4526594 gi:41347907 est
+# 4526594 gi:1713554 est
+# 4526594 gi:11270431 est
+# 4526594 gi:5550307 est
+# 4526594 chr19.4.003.a twinscan
+# 4526594 gi:17746057 est
+# 4526594 chr19_4.1 geneid
+# 4526594 chr19_4.1 sgpGene
+# 4526594 chr19_1.3 genscan
+# 4526594 gi:29358006 est
+# 4526594 gi:13955861 est
+# 4526594 gi:15646535 est
+# 4526594 gi:8186127 est
+# 4526594 gi:10751583 est
+# 4526594 gi:12022484 est
+# 4526594 gi:21894569 est
+# 4526594 gi:22864265 est
+# 4526594 gi:9914299 est
+# 4526594 gi:1902021 est
+# 4526594 gi:9911363 est
+# 4526594 gi:10599388 est
+# 4526594 gi:1905195 est
+# 4526594 gi:8710050 est
+# 4526594 gi:10599384 est
+# 4526594 gi:49911175 est
+# 4526594 gi:4794651 est
+# 4526594 gi:16942500 est
+# 4526594 gi:8182675 est
+# 4526594 gi:10078506 est
+# 4526594 gi:2039787 est
+# 4526594 gi:10599382 est
+# 4526594 gi:2405735 est
+# 4526594 gi:17012787 est
+# 4526594 gi:16064650 est
+# 4526594 gi:16952940 est
+# 4526594 gi:6096509 est
+# 4526594 gi:51031713 est
+# 4526594 gi:5550372 est
+# 4526594 gi:26598895 est
+# 4526594 gi:26956858 est
+# 4526594 gi:16960578 est
+# 4526594 gi:32295866 est
+# 4526594 gi:31554314 est
+chr19	MoEx-1_0-st	probe	3287703	3287727	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3030222; psr_id 116391878; probeset_id 4526594; probe_x 1741; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 1183; probe "agttgtctgccccaaccagcaggac"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3287708	3287732	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 4104641; psr_id 116391878; probeset_id 4526594; probe_x 960; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 1603; probe "tgtgaagttgtctgccccaaccagc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3287716	3287740	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 559838; psr_id 116391878; probeset_id 4526594; probe_x 1757; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 218; probe "cccaggagtgtgaagttgtctgccc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	probe	3287721	3287745	.	+	.	self_cross_hybridizes 0; probe_type 3; probe_id 3817963; psr_id 116391878; probeset_id 4526594; probe_x 1002; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 1491; probe "gcttgcccaggagtgtgaagttgtc"; cross_hybridizes 1
+chr19	MoEx-1_0-st	psr	3287756	3287830	.	+	.	psr_id 116391879; transcript_cluster_id 6867565; exon_cluster_id 418321
+chr19	MoEx-1_0-st	probeset	3287762	3287828	.	+	.	probe_count 4; psr_id 116391879; number_independent_probes 3; probeset_id 5123950; probeset_type 1; transcript_cluster_id 6867565; exon_cluster_id 418321; number_nonoverlapping_probes 2; level "extended"; evidence "human_fl:1"
+# 5123950 gi:31652221 human_fl
+chr19	MoEx-1_0-st	probe	3287762	3287786	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 5290972; psr_id 116391879; probeset_id 5123950; probe_x 2011; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 2066; probe "tggaccaagcccagggtttgaagct"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287763	3287787	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 6512282; psr_id 116391879; probeset_id 5123950; probe_x 2201; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 2543; probe "ctggaccaagcccagggtttgaagc"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287790	3287814	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 292187; psr_id 116391879; probeset_id 5123950; probe_x 346; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 114; probe "gtgtctagcctgtgagccagcccag"; cross_hybridizes 0
+chr19	MoEx-1_0-st	probe	3287804	3287828	.	+	.	self_cross_hybridizes 0; probe_type 1; probe_id 3093828; psr_id 116391879; probeset_id 5123950; probe_x 1347; transcript_cluster_id 6867565; exon_cluster_id 418321; probe_y 1208; probe "ggcctgaccacaccgtgtctagcct"; cross_hybridizes 0
+chr19	MoEx-1_0-st	exon_cluster	3288984	3289159	.	+	.	transcript_cluster_id 6867565; exon_cluster_id 418322
+chr19	MoEx-1_0-st	psr	3288984	3289087	.	+	.	psr_id 116391885; transcript_cluster_id 6867565; exon_cluster_id 418322
+chr19	MoEx-1_0-st	probeset	3289017	3289059	.	+	.	probe_count 4; psr_id 116391885; number_independent_probes 2; probeset_id 5525233; probeset_type 2; transcript_cluster_id 6867565; exon_cluster_id 418322; number_nonoverlapping_probes 1; level "core"; cds 1; evidence "ensGene:2" "est:67" "fl:2" "geneid:1" "genscan:1" "human_fl:5" "mrna:3" "sgpGene:1" "twinscan:1"
+# 5525233 gi:31652221 human_fl
+# 5525233 gi:31652223 human_fl
+# 5525233 gi:31652225 human_fl
+# 5525233 gi:31652227 human_fl
+# 5525233 ENSMUST00000025745 ensGene
+# 5525233 gi:31982031 fl
+# 5525233 gi:12861417 mrna
+# 5525233 gi:27137557 est
+# 5525233 gi:15660367 est
+# 5525233 gi:12849754 mrna
+# 5525233 gi:27123161 est
+# 5525233 ENSMUST00000025743 ensGene
+# 5525233 gi:12833856 mrna
+# 5525233 gi:15566938 est
+# 5525233 gi:27114674 est
+# 5525233 gi:38495086 est
+# 5525233 gi:28222163 est
+# 5525233 gi:38558735 est
+# 5525233 gi:37602826 est
+# 5525233 gi:20380375 fl
+# 5525233 gi:9907334 est
+# 5525233 gi:27793921 est
+# 5525233 gi:32967618 human_fl
+# 5525233 gi:14296392 est
+# 5525233 gi:9816847 est
+# 5525233 gi:15169927 est
+# 5525233 gi:15174286 est
+# 5525233 gi:1375664 est
+# 5525233 gi:41347907 est
+# 5525233 chr19.4.003.a twinscan
+# 5525233 gi:17746057 est
+# 5525233 chr19_4.1 geneid
+# 5525233 chr19_4.1 sgpGene
+# 5525233 chr19_1.3 genscan
+# 5525233 gi:29358006 est
+# 5525233 gi:13955861 est
+# 5525233 gi:15646535 est
+# 5525233 gi:8186127 est
+# 5525233 gi:10751583 est
+# 5525233 gi:12022484 est
+# 5525233 gi:21894569 est
+# 5525233 gi:22864265 est
+# 5525233 gi:9914299 est
+# 5525233 gi:1902021 est
+# 5525233 gi:9911363 est
+# 5525233 gi:10599388 est
+# 5525233 gi:1905195 est
+# 5525233 gi:8710050 est
+# 5525233 gi:10599384 est
+# 5525233 gi:4794651 est
+# 5525233 gi:16942500 est
+# 5525233 gi:8182675 est
+# 5525233 gi:10078506 est
+# 5525233 gi:10599382 est
+# 5525233 gi:2405735 est
+# 5525233 gi:17012787 est
+# 5525233 gi:16064650 est
+# 5525233 gi:16952940 est
+# 5525233 gi:6096509 est
+# 5525233 gi:51031713 est
+# 5525233 gi:5550372 est
+# 5525233 gi:26598895 est
+# 5525233 gi:26956858 est
+# 5525233 gi:16960578 est
+# 5525233 gi:32295866 est

@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# $1 = genotype - D|M
+# $2 = tissue 	- TES|KID|SPN
+# $3 = summarization method 	- PLIER|ITER_PLIER|GCRMA|DABG
+# $4 = lists dir	# Directory containing probeset lists (split for parallel computation)
+# $5 = cel dir
+# $6 = kill-list
+# $7 = library dir
+# $8 = output dir
+
+
+# example use: submit_job D KID DABG ~/moex/moex2010/lists/ps/core/snp ~/moex/moex2010/cel_genotype ~/moex/moex2010/release/out/empty.kill ~/moex/affy/annot/lib ~/moex/moex2010/release/out/core_snp
+#			  1| 2 |  3 |            4                    |            5               |                  6                   |           7         |                  8		     
+
+type=`find $4 -type f -name '*.*' | sed 's|.*\.||' | sort -u`
+
+cwd=`pwd`
+
+out=$8 #$cwd/out
+mkdir -p $out
+
+jobs=$cwd/jobs
+mkdir -p $jobs
+
+scripts=$cwd/scripts
+
+# Directory containing probeset lists (split for parallel computation)
+lists_dir=$4
+
+lists=`find $lists_dir -type f`
+
+pushd $jobs > /dev/null
+
+for list in $lists; do
+	base=`basename $list`
+	echo -n "Submitting $base; curlist=$list, genotype=$1, tissue=$2:"
+	mkdir -p $out/$3/$1_$2_$3
+	qsub -l nodes=1:ppn=1:brno:x86_64,mem=1gb,walltime=2:00:00,scratch=2gb -N $1_$2_$3-$base -m a -j oe -d $jobs -v out=$out/$3/$1_$2_$3,cwd=$cwd,curlist=$list,genotype=$1,tissue=$2,data_dir=$5,kill=$6,lib=$7 $scripts/$3_$type.apt
+done
+
+
+

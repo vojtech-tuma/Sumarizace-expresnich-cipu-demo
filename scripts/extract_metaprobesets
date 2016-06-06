@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Converts metaprobeset definition to long format. Used to map SNPs to metaprobesets
+# $1 = mps file
+
+# example launch: ./scripts/extract_metaprobesets ~/moex/affy/annot/dt/MoEx-1_0-st-v1.r2.dt1.mm9.core.mps
+
+echo -e 'meta_probeset_id\tprobeset_id' > out/mps.gene
+
+grep -v "#" $1 | 		# remove comments
+sed "s/\s\+/\t/g" | 		# put tabs in place of spaces
+awk -F'\t' 'NR>1 {if(NF>3){for(i=3;i<NF-1;i++){print $1,$i}}else{print $1,$1}}' >> out/mps.gene	# for mps put transcript and probeset ids. for ps put probeset and probeset ids (strange mps formatting)

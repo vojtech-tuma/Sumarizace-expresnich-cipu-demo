@@ -1,0 +1,214 @@
+Copyright 2006, Affymetrix Inc.
+All Rights Reserved
+
+The contents of this library file collection are covered
+by the terms of use or license provided at the same location
+as this library file.
+
+This zip file contains the library files for the exon array
+analysis software. These are for the Mouse Exon 1.0 ST array
+and are the v1 release version of the library files. The
+two primary files, the clf and pgf files, contain a superset
+of information that was formerly found in the cdf file.
+
+  - MoEx-1_0-st-v1/MoEx-1_0-st-v1.clf:
+	CEL Layout File which indicates the location of 
+	each probe within the CEL matrix
+
+  - MoEx-1_0-st-v1/MoEx-1_0-st-v1.pgf:
+	Probe Group File indicates the groupings of probes 
+	into probesets. 
+
+The bgp folder contains BackGround Probe files which are 
+used by bruce-probe-summarize along with the PM-GCBG
+intensity method. The BackGround Probe file lists the 
+probe IDs for the background probes for use with the
+PM-GCBG intensity method. 
+
+  - MoEx-1_0-st-v1/bgp/antigenomic.bgp:
+	These particular background probes were 
+	selected based on the lack of sequence 
+	matches to a number of different genomes.
+
+  - MoEx-1_0-st-v1/bgp/genomic.bgp:
+	These particular background probes were selected 
+	using the standard Affymetrix probe selection 
+	software for regions of the mouse genome which 
+	only had a genscan suboptimal exon prediction. 
+	Furthermore, the probes in this file are the 
+	mismatch probes from these genscan suboptimal-only 
+	probesets.
+
+The following files are lists of probeset IDs which can
+be used by the exon array analysis software to restrict
+the analysis to specific probesets. Use the 
+--probeset-ids=<filename> option to bruce-probe-summarize
+(or the probeset list text box in the GUI workflow) in
+conjunction with these files.
+
+  - MoEx-1_0-st-v1/probeset-list/control.affx.txt:
+	The standard AFFX control probesets. There are 
+	antisense target versions for the bacterial
+	spikes and sense target versions for the
+	poly-A spikes.
+  - MoEx-1_0-st-v1/probeset-list/main.txt:
+	Probesets for the primary content of the chip.
+  - MoEx-1_0-st-v1/probeset-list/normgene.exon.txt:
+	Exon based probesets for the normalization
+	control genes.
+  - MoEx-1_0-st-v1/probeset-list/normgene.intron.txt:
+	Intron based probesets for the normalization
+	control genes.
+  - MoEx-1_0-st-v1/probeset-list/rescue.FLmRNA.unmapped.txt:
+	Probesets for full-length sequences which did
+	not map to the genome.
+
+The non-validated text/binary CDF files are provided for
+convenience, but are not supported.
+
+FILE FORMATS:
+
+
+PGF (Probe Group File Format): This file is a tab separated text file which has
+information about how probes are arranged into probe sets. Lines starting with
+a '#%' indicate a command tag. These lines must appear at the top of the file.
+They are followed by a 'key=value' syntax and are used to embed header
+information into the PGF file. Lines that start with a '##' are comments. These
+lines are ignored by the PGF parser. Comments can be used by the user to embed
+textual information or to comment out data that they don't want to be used.
+What makes a PGF file different from a more typical tab separated text file is
+that there is a nested structure to it. Specifically, the leading whitespace
+for the data lines is significant as it indicates parent/child relationships.
+For instance a line describing a probe set has no leading white space. A line
+describing an atom (ie probe pair for expression) has a single tab leading
+whitespace and a line describing a probe has two leading tabs. The atoms for a
+given probe set are listed following the probe set line and the probes for an
+atom are listed following the atom line. Special command tags are used to
+describe the content in the data lines. The '#%header0=' command tag lists the
+column names for the probe set lines. The '#%header1=' command tag lists the
+column names for the atom lines. The '#%header2=' command tag lists the column
+names for the probe lines. The specific columns in a pgf file can vary. Unlike
+CDF files, the probe set, atom, and probe are all associated with a unique ID;
+also, there is no x/y coordinate information for where the probes are on the
+chip. (That information is in the CLF file.) Here are the columns and their
+descriptions for the contents of the MoEx-1_0-st-v1 PGF file:
+
+   - probeset_id: the probe set identifier. unique over the chip, but not
+                  necessarily unique over all chip designs.
+   - type: the type(s) or class(s) that a probeset, atom, and/or probe
+           belongs to. See below for more details.
+   - atom_id: the atom identifier. unique over the chip, but
+              not necessarily unique over all chip designs.
+   - probe_id: the probe identifier. unique over the chip, but
+               not necessarily unique over all chip designs.
+   - gc_count: the number of G/C bases in the probe
+   - probe_length: the length of the probe
+   - interrogation_position: the position of the mismatch base (even though
+		most of the probesets on this chip design lack a mismatch
+		probe, the center base, 13th, is still listed as the
+		interrogation position)
+   - probe_sequence: the sequence of the probe
+
+Some of the header tags you may encounter in the PGF file:
+
+   - #%pgf_version: PGF file format version 
+   - #%chip_type: The chip type expected in the CEL files. Multiple
+		chip_type lines may be listed when there are multiple
+		GCOS library files for a given chip design
+   - #%lib_set_name: The name of the library file set. Generally
+		there will be one lib_set_name per chip design.
+   - #%lib_set_version: The version of the content for the 
+		lib_set_name.
+   - #%create_date: The date that the PGF file was created
+   - #%header0: Probeset header
+   - #%header1: Atom header
+   - #%header2: Probe header
+
+When present, the clf_lib_set_name and clf_lib_set_version tags indicate
+which CLF file is referenced by the PGF file. When absent, it is assumed
+that the CLF file has the same lib_set_name and lib_set_version as the
+PGF file.
+
+Probeset types as reported in the PGF file:
+
+  What type of target does the probeset interrogate (a
+  single probeset may be associated with more than one):
+    - main: probeset is part of the main design
+    - control->affx: probeset is a standard AFFX control
+    - control->chip: probeset is a chip control
+    - control->bgp->antigenomic: probeset contains background
+	probes (antigenomic background probes)
+    - control->bgp->genomic: probeset contains background
+	probes (genomic background probes)
+    - normgene->exon: probeset is from an exonic region
+	of a normalization control gene
+    - normgene->intron: probeset is from an intronic region
+	of a normalization control gene
+    - rescue->FLmRNA->unmapped: probeset consists of probes
+	tiled across an mRNA transcript which either
+	didn't align to the genome, or aligned poorly
+
+Probe (not probeset) types as reported in the PGF file:
+
+  What type of sample target is interrogated by the probeset:
+    - at: antisense target probe
+    - st: sense target probe
+
+  Perfect match or mismatch probe:
+    - pm: perfect match probe
+    - mm: mismatch probe
+
+  Internal Control Probe Types:
+    - blank
+    - generic
+    - jumbo-checkerboard
+    - thermo 
+    - trigrid 
+
+The Affx::WTA::ParsePGF perl module should be used to interface with the PGF
+files. This module is in the process of being rewritten in C++ and will 
+probably be added to the File Parser SDK sometime in the future.
+
+CLF (CEL Layout File Format): This file is a tab separated text file which has
+information about where probes are in the CEL file. The file has the same command
+tag ('#%') and comment ('##') syntax of the PGF file. In essence, the file
+format (syntax) of the CLF and PGF files are identical. The CLF file lacks any
+nested relationships; thus there is only a single header tag in the CLF file.
+The data lines in the CLF file contain the probe identifier and the x/y
+coordinate of the probe within the CEL file. This file format may be replaced
+by a binary format in the future.
+
+Some of the header tags you may encounter in the CLF file:
+
+   - #%clf_format_version: CLF file format version
+   - #%chip_type: The chip type expected in the CEL files
+   - #%lib_set_name: The name of the library file set. Generally
+		there will be one lib_set_name per chip design.
+   - #%lib_set_version: The version of the content for the 
+		lib_set_name.
+   - #%create_date: The date that the PGF file was created
+   - #%header0: header for the content of the CLF file (probe_id, x, y) 
+   - #%rows: number of feature rows in the chip design
+   - #%cols: number of feature columns in the chip design
+   - #%sequential: Indicates that the probe_ids are sequential, column major
+		order, starting at the value of this tag. When set, this
+		allows the software to use a simple functional transformation
+		based on the row and col count to translate probe ids to
+		x/y coordinates. If not set, the software will need to read
+		and hash the entire contents of the CLF file.
+
+The Affx::WTA::ParseCLF perl module should be used to interface with the CLF
+files. This module is in the process of being rewritten in C++ and will
+probably be added to the File Parser SDK sometime in the future.
+
+BGP (Background Probe File Format) and Probeset List Files: The BGP is 
+and probeset list files are in a tab separated text file format extended
+with comments ('##') and tags ('#%').  Similar tags to those found in the 
+PGF and CLF files will be present. 
+
+The Affx::WTA::ParseTSV perl module is a parser for handling generic
+tab separated text files allowing for the meta tags and comments. This
+module should be used to interface with BGP files (as well as the TSV 
+files). This module is in the process of being rewritten in C++ and will
+probably be added to the File Parser SDK sometime in the future.
+

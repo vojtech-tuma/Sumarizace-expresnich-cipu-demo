@@ -1,0 +1,20 @@
+#!/bin/bash
+
+base=`basename $curlist`
+#echo $data_dir/$genotype[1-9]*$tissue.CEL
+
+
+../apt/bin/apt-probeset-summarize \
+   -a dabg \
+   -c $lib/MoEx-1_0-st-v1.r2.clf \
+   -p $lib/MoEx-1_0-st-v1.r2.pgf \
+   -b $lib/MoEx-1_0-st-v1.r2.antigenomic.bgp \
+   -s $curlist \
+   -o $out/$base \
+   --kill-list $kill \
+   --qc-probesets $lib/MoEx-1_0-st-v1.r2.qcc \
+   --temp-dir $SCRATCHDIR/data/$base \
+   $data_dir/$genotype[1-9]*$tissue.CEL; 
+        
+rm -rf $SCRATCHDIR/data/$base
+       

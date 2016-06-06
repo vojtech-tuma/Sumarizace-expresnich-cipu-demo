@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ParameterFile company="Affymetrix" userName="Affymetrix" contentVersion="1.0">
+	<Implementation name="MoEx-1_0-st-v1" version="1.0" executableFileName="ExpressionConsole.EXE" description="Analysis Definitions"/>
+	<Parameter name="ArrayType" isEditable="false" type="String8" currentValue="MoEx-1_0-st-v1"/>
+	<Parameter name="Version" isEditable="false" type="String8" currentValue="1.0"/>
+        <Parameter name="DetectionThreshold" isEditable="false" type="Float" currentValue=".01"/>
+
+	<Parameter name="Controls" displayName="Controls: RMA-Sketch" category="menu_item" type="String8" currentValue="Controls Only" defaultValue="AFFX-CONTROLS">
+		<Control>dabg</Control>
+		<Control>rma</Control>
+	</Parameter>
+	
+	<Parameter name="ExonCore" displayName="Core: RMA-Sketch" category="menu_item" type="String8" currentValue="Exon Level" defaultValue="EXON-CORE">
+		<Control>dabg</Control>
+		<Control>rma</Control>
+	</Parameter>
+
+	<Parameter name="ExonExtended" displayName="Extended: RMA-Sketch" category="menu_item" type="String8" currentValue="Exon Level" defaultValue="EXON-EXTENDED">		
+		<Control>dabg</Control>
+		<Control>rma</Control>
+	</Parameter>		
+
+	<Parameter name="ExonFull" displayName="Full: RMA-Sketch" category="menu_item" type="String8" currentValue="Exon Level" defaultValue="EXON-FULL" description="hidden">
+		<Control>dabg</Control>
+		<Control>rma</Control>
+	</Parameter>
+
+	<Parameter name="ExonAll" displayName="All: RMA-Sketch (including speculative content)" category="menu_item" type="String8" currentValue="Exon Level" defaultValue="EXON-ALL">
+		<Control>dabg</Control>
+		<Control>rma</Control>
+	</Parameter>
+
+	<Parameter name="GeneCore" displayName="Core: RMA-Sketch" category="menu_item" type="String8" currentValue="Gene Level" defaultValue="GENE-CORE">		
+		<Control>rma</Control>
+	</Parameter>
+
+	<Parameter name="GeneExtended" displayName="Extended: RMA-Sketch" category="menu_item" type="String8" currentValue="Gene Level" defaultValue="GENE-EXTENDED">		
+		<Control>rma</Control>
+	</Parameter>
+
+	<Parameter name="GeneFull" displayName="Full: RMA-Sketch" category="menu_item" type="String8" currentValue="Gene Level" defaultValue="GENE-FULL" description="hidden">
+		<Control>rma</Control>
+	</Parameter>
+
+	
+	<Parameter name="dabg" isEditable="false" category="analysis" type="String8" currentValue="pm-only,dabg"/>
+	<Parameter name="rma" isEditable="false" category="analysis" type="String8" currentValue="rma-bg,quant-norm.sketch=-1.usepm=true.bioc=true,pm-only,med-polish"/>
+
+      <Parameter name="EXON-CORE" isEditable="false" category="files" type="String8" currentValue="EXON-CORE">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.dt1.mm8.core.ps</Control>
+   		<Control>MoEx-1_0-st-v1.r2.qcc</Control>
+	</Parameter>
+
+ 	<Parameter name="EXON-EXTENDED" isEditable="false" category="files" type="String8" currentValue="EXON-EXTENDED">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.dt1.mm8.extended.ps</Control>
+   		<Control>MoEx-1_0-st-v1.r2.qcc</Control>
+	</Parameter> 	
+	
+	<Parameter name="EXON-FULL" isEditable="false" category="files" type="String8" currentValue="EXON-FULL">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.dt1.mm8.full.ps</Control>
+   		<Control>MoEx-1_0-st-v1.r2.qcc</Control>
+	</Parameter>
+
+	<Parameter name="EXON-ALL" isEditable="false" category="files" type="String8" 	currentValue="EXON-ALL">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+   		<Control>MoEx-1_0-st-v1.r2.qcc</Control>
+	</Parameter>
+	
+
+	<Parameter name="GENE-CORE" isEditable="false" category="files" type="String8" currentValue="GENE-CORE">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.dt1.mm8.core.mps</Control>
+   		<Control>MoEx-1_0-st-v1.r2.qcc</Control>
+	</Parameter>
+
+	<Parameter name="GENE-EXTENDED" isEditable="false" category="files" type="String8" currentValue="GENE-EXTENDED">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.dt1.mm8.extended.mps</Control>
+   		<Control>MoEx-1_0-st-v1.r2.qcc</Control>
+	</Parameter>
+	
+	<Parameter name="GENE-FULL" isEditable="false" category="files" type="String8" currentValue="GENE-FULL">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.dt1.mm8.full.mps</Control>
+   		<Control>MoEx-1_0-st-v1.r2.qcc</Control>
+	</Parameter>
+
+	<Parameter name="AFFX-CONTROLS" isEditable="false" category="files" type="String8" currentValue="AFFX-CONTROLS">
+		<Control>MoEx-1_0-st-v1.r2.antigenomic.bgp</Control>
+    		<Control>MoEx-1_0-st-v1.r2.clf</Control>
+    		<Control>MoEx-1_0-st-v1.r2.pgf</Control>
+		<Control>MoEx-1_0-st-v1.r2.controls.ps</Control>
+		<Control>MoEx-1_0-st-v1.r2.qcc</Control>	
+	</Parameter>
+	
+</ParameterFile>
